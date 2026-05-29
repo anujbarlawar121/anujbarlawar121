@@ -1,0 +1,69 @@
+name: Profile Health Check
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify local profile assets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            "README.md"
+            "SETUP.md"
+            "assets/hero-banner.svg"
+            "assets/divider.svg"
+            "assets/footer.svg"
+            "assets/leetcode-placeholder.svg"
+            "assets/project-rag.svg"
+            "assets/project-chatbots.svg"
+            "assets/project-ds.svg"
+            "assets/project-ml.svg"
+            ".github/workflows/snake.yml"
+          )
+
+          for file in "${required_files[@]}"; do
+            if [[ ! -f "$file" ]]; then
+              echo "Missing required file: $file"
+              exit 1
+            fi
+          done
+
+      - name: Verify external widgets
+        shell: bash
+        env:
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+
+          urls=(
+            "https://readme-typing-svg.demolab.com/?lines=health-check"
+            "https://komarev.com/ghpvc/?username=${USERNAME}&style=for-the-badge"
+            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true"
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact"
+            "https://streak-stats.demolab.com/?user=${USERNAME}"
+            "https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=algolia&no-frame=true"
+            "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=tokyo-night"
+          )
+
+          for url in "${urls[@]}"; do
+            echo "Checking ${url}"
+            curl --fail --silent --show-error --location --retry 3 --retry-delay 5 "$url" > /dev/null
+          done

@@ -1,0 +1,24 @@
+<svg width="1600" height="220" viewBox="0 0 1600 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="footerTitle footerDesc">
+  <title id="footerTitle">Profile footer</title>
+  <desc id="footerDesc">Dark futuristic footer with a portfolio style closing message.</desc>
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1600" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04070F"/>
+      <stop offset="1" stop-color="#100A1A"/>
+    </linearGradient>
+    <pattern id="footerGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#173253" stroke-opacity="0.26" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="footerLine" x1="180" y1="92" x2="1420" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D9FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="220" rx="28" fill="url(#footerBg)"/>
+  <rect width="1600" height="220" rx="28" fill="url(#footerGrid)"/>
+  <path d="M180 92H1420" stroke="url(#footerLine)" stroke-width="2"/>
+  <text x="800" y="78" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="4">THANKS FOR VISITING</text>
+  <text x="800" y="128" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle">Building intelligent systems, one model at a time.</text>
+  <text x="800" y="164" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="18" text-anchor="middle">Open to AI, ML, GenAI, and data-driven internship opportunities.</text>
+</svg>
