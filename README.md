@@ -117,16 +117,20 @@ open_to:
 ## GitHub Intelligence
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=anujbarlawar121&show_icons=true&hide_border=true&title_color=8BE9FF&text_color=C9D9F0&icon_color=00D9FF&bg_color=0D1117&border_radius=18&include_all_commits=true" alt="GitHub stats" />
+  <sub>Custom GitHub API cards below refresh automatically from this repository's workflows.</sub>
+</p>
+
+<p align="center">
+  <img width="49%" src="./assets/generated/github-stats.svg" alt="GitHub stats" />
   <img width="49%" src="https://streak-stats.demolab.com/?user=anujbarlawar121&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=8BE9FF" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anujbarlawar121&layout=compact&hide_border=true&title_color=8BE9FF&text_color=C9D9F0&bg_color=0D1117&border_radius=18" alt="Most used languages" />
+  <img width="42%" src="./assets/generated/top-languages.svg" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=anujbarlawar121&theme=algolia&no-frame=true&margin-w=10&margin-h=10&column=4" alt="GitHub trophies" />
+  <img width="100%" src="./assets/generated/trophy-wall.svg" alt="GitHub trophy wall" />
 </p>
 
 <p align="center">

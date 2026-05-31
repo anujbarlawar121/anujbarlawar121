@@ -26,6 +26,12 @@ Repository creation on GitHub was not automated from this workspace because GitH
 5. Run the `Generate Contribution Snake` workflow once manually from the `Actions` tab.
 6. After the first run, the `output` branch will be created automatically and the snake animation will appear in the README.
 
+## Auto-Refresh Profile Cards
+
+1. The `Refresh Profile Assets` workflow generates your stats card, language card, and trophy wall from the GitHub API.
+2. It runs automatically on pushes, on a schedule, and when triggered manually.
+3. If the cards ever look stale, open the `Actions` tab and run `Refresh Profile Assets`.
+
 ## Add a Live LeetCode Card Later
 
 Replace the placeholder image inside the LeetCode section with:
@@ -40,11 +46,16 @@ Replace the placeholder image inside the LeetCode section with:
 .
 |-- .github
 |   `-- workflows
+|       |-- profile-assets.yml
 |       |-- profile-health.yml
 |       `-- snake.yml
 |-- assets
 |   |-- divider.svg
 |   |-- footer.svg
+|   |-- generated
+|   |   |-- github-stats.svg
+|   |   |-- top-languages.svg
+|   |   `-- trophy-wall.svg
 |   |-- hero-banner.svg
 |   |-- leetcode-placeholder.svg
 |   |-- project-chatbots.svg
@@ -52,6 +63,8 @@ Replace the placeholder image inside the LeetCode section with:
 |   |-- project-ml.svg
 |   `-- project-rag.svg
 |-- README.md
+|-- scripts
+|   `-- generate-profile-assets.mjs
 `-- SETUP.md
 ```
 

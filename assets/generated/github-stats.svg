@@ -1,0 +1,46 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="statsBg" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06111F"/>
+      <stop offset="1" stop-color="#120A1F"/>
+    </linearGradient>
+    <linearGradient id="statsAccent" x1="36" y1="0" x2="864" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D9FF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="320" rx="28" fill="url(#statsBg)"/>
+  <rect x="18" y="18" width="864" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#statsAccent)" stroke-opacity="0.72"/>
+  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">GITHUB SIGNALS</text>
+  <text x="42" y="88" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="15">Live API sync for anujbarlawar121 // Updated 2026-05-31</text>
+  <g>
+    <rect x="42" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#00D9FF" stroke-opacity="0.5"/>
+    <text x="60" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">PUBLIC REPOS</text>
+    <text x="60" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">10</text>
+  </g>
+  <g>
+    <rect x="244" y="116" width="186" height="72" rx="18" fill="#101227" stroke="#8B5CF6" stroke-opacity="0.5"/>
+    <text x="262" y="143" fill="#A78BFA" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">FOLLOWERS</text>
+    <text x="262" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">5</text>
+  </g>
+  <g>
+    <rect x="446" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#14F195" stroke-opacity="0.5"/>
+    <text x="464" y="143" fill="#7DF6C8" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">FOLLOWING</text>
+    <text x="464" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">8</text>
+  </g>
+  <g>
+    <rect x="648" y="116" width="210" height="72" rx="18" fill="#101227" stroke="#00D9FF" stroke-opacity="0.5"/>
+    <text x="666" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">STARS EARNED</text>
+    <text x="666" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">3</text>
+  </g>
+  <g>
+    <rect x="42" y="206" width="392" height="74" rx="20" fill="#0A172B" stroke="#224A70"/>
+    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">PORTFOLIO MOMENTUM</text>
+    <text x="62" y="260" fill="#D7E7FF" font-family="Consolas, 'Courier New', monospace" font-size="15">Public repos: 10  |  Stars: 3  |  Forks: 1</text>
+  </g>
+  <g>
+    <rect x="452" y="206" width="406" height="74" rx="20" fill="#101227" stroke="#3D2A63"/>
+    <text x="472" y="234" fill="#C4B5FD" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">RECRUITER READ</text>
+    <text x="472" y="260" fill="#E9DDFF" font-family="Consolas, 'Courier New', monospace" font-size="15">Visible public work, active stack diversity, and a profile built for AI internship discovery.</text>
+  </g>
+</svg>

@@ -31,12 +31,17 @@ jobs:
             "assets/hero-banner.svg"
             "assets/divider.svg"
             "assets/footer.svg"
+            "assets/generated/github-stats.svg"
+            "assets/generated/top-languages.svg"
+            "assets/generated/trophy-wall.svg"
             "assets/leetcode-placeholder.svg"
             "assets/project-rag.svg"
             "assets/project-chatbots.svg"
             "assets/project-ds.svg"
             "assets/project-ml.svg"
             ".github/workflows/snake.yml"
+            ".github/workflows/profile-assets.yml"
+            "scripts/generate-profile-assets.mjs"
           )
 
           for file in "${required_files[@]}"; do
@@ -56,10 +61,7 @@ jobs:
           urls=(
             "https://readme-typing-svg.demolab.com/?lines=health-check"
             "https://komarev.com/ghpvc/?username=${USERNAME}&style=for-the-badge"
-            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true"
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact"
             "https://streak-stats.demolab.com/?user=${USERNAME}"
-            "https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=algolia&no-frame=true"
             "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=tokyo-night"
           )
 

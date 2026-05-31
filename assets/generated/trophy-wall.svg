@@ -1,0 +1,39 @@
+<svg width="1600" height="320" viewBox="0 0 1600 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="trophyBg" x1="0" y1="0" x2="1600" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06111F"/>
+      <stop offset="1" stop-color="#120A1F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="320" rx="28" fill="url(#trophyBg)"/>
+  <text x="38" y="46" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">GITHUB TROPHY WALL</text>
+  <text x="38" y="68" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">A custom milestone wall generated from live GitHub profile signals.</text>
+  <g>
+    <rect x="36" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#00D9FF" stroke-opacity="0.58"/>
+    <path d="M70 114H128L144 130L128 146H70L54 130L70 114Z" fill="#111D35" stroke="#00D9FF" stroke-opacity="0.8"/>
+    <text x="160" y="126" fill="#00D9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">REPOSITORY BUILDER</text>
+    <text x="72" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">10</text>
+    <text x="72" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">public repos</text>
+  </g>
+  <g>
+    <rect x="422" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#8B5CF6" stroke-opacity="0.58"/>
+    <path d="M456 114H514L530 130L514 146H456L440 130L456 114Z" fill="#111D35" stroke="#8B5CF6" stroke-opacity="0.8"/>
+    <text x="546" y="126" fill="#8B5CF6" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">COMMUNITY SIGNAL</text>
+    <text x="458" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">5</text>
+    <text x="458" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">followers</text>
+  </g>
+  <g>
+    <rect x="808" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#14F195" stroke-opacity="0.58"/>
+    <path d="M842 114H900L916 130L900 146H842L826 130L842 114Z" fill="#111D35" stroke="#14F195" stroke-opacity="0.8"/>
+    <text x="932" y="126" fill="#14F195" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">STAR COLLECTOR</text>
+    <text x="844" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">3</text>
+    <text x="844" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">stars earned</text>
+  </g>
+  <g>
+    <rect x="1194" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#F472B6" stroke-opacity="0.58"/>
+    <path d="M1228 114H1286L1302 130L1286 146H1228L1212 130L1228 114Z" fill="#111D35" stroke="#F472B6" stroke-opacity="0.8"/>
+    <text x="1318" y="126" fill="#F472B6" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">STACK EXPLORER</text>
+    <text x="1230" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">5</text>
+    <text x="1230" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">top languages</text>
+  </g>
+</svg>
