@@ -28,7 +28,7 @@ If your Instagram or LeetCode handles change, update their links and badges belo
   <img src="https://img.shields.io/badge/OPEN_TO-AI%20ML%20INTERNSHIPS-14F195?style=for-the-badge&labelColor=111827" alt="Open to internships" />
 </p>
 
-<h1 align="center">AI Engineer Energy. Student Hunger. Portfolio Mindset.</h1>
+<h1 align="center">AI & Data Science Student Building Practical ML, RAG, and LLM Applications.</h1>
 
 <p align="center">
   I am an AI and Data Science student building practical systems at the intersection of machine learning, retrieval, and product thinking.
