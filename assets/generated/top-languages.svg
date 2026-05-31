@@ -9,24 +9,25 @@
   <rect x="18" y="18" width="664" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#00D9FF" stroke-opacity="0.56"/>
   <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">MOST USED LANGUAGES</text>
   <text x="42" y="82" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">Calculated from public repositories owned by anujbarlawar121</text>
+  
   <text x="44" y="120" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">HTML</text>
   <rect x="250" y="106" width="300" height="16" rx="8" fill="#112038"/>
-  <rect x="250" y="106" width="129" height="16" rx="8" fill="#00D9FF"/>
-  <text x="566" y="120" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">43.1%</text>
+  <rect x="250" y="106" width="127" height="16" rx="8" fill="#00D9FF"/>
+  <text x="566" y="120" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">42.2%</text>
   <text x="44" y="154" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">Python</text>
   <rect x="250" y="140" width="300" height="16" rx="8" fill="#112038"/>
-  <rect x="250" y="140" width="76" height="16" rx="8" fill="#8B5CF6"/>
-  <text x="566" y="154" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">25.3%</text>
+  <rect x="250" y="140" width="74" height="16" rx="8" fill="#8B5CF6"/>
+  <text x="566" y="154" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">24.7%</text>
   <text x="44" y="188" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">Jupyter Notebook</text>
   <rect x="250" y="174" width="300" height="16" rx="8" fill="#112038"/>
-  <rect x="250" y="174" width="63" height="16" rx="8" fill="#14F195"/>
-  <text x="566" y="188" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">21.0%</text>
-  <text x="44" y="222" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">CSS</text>
+  <rect x="250" y="174" width="62" height="16" rx="8" fill="#14F195"/>
+  <text x="566" y="188" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">20.5%</text>
+  <text x="44" y="222" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">JavaScript</text>
   <rect x="250" y="208" width="300" height="16" rx="8" fill="#112038"/>
   <rect x="250" y="208" width="24" height="16" rx="8" fill="#38BDF8"/>
-  <text x="566" y="222" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">5.3%</text>
-  <text x="44" y="256" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">JavaScript</text>
+  <text x="566" y="222" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">7.3%</text>
+  <text x="44" y="256" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">CSS</text>
   <rect x="250" y="242" width="300" height="16" rx="8" fill="#112038"/>
   <rect x="250" y="242" width="24" height="16" rx="8" fill="#F472B6"/>
-  <text x="566" y="256" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">5.3%</text>
+  <text x="566" y="256" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">5.2%</text>
 </svg>
