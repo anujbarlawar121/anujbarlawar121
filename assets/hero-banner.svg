@@ -89,8 +89,8 @@
       <text x="274" y="378" fill="#EFE6FF">JAVA</text>
       <rect x="348" y="356" width="110" height="34" rx="17" fill="#08192C" stroke="#00D9FF" stroke-opacity="0.75"/>
       <text x="378" y="378" fill="#DDF8FF">GEN AI</text>
-      <rect x="474" y="356" width="176" height="34" rx="17" fill="#0D1124" stroke="#A855F7" stroke-opacity="0.82"/>
-      <text x="503" y="378" fill="#F3E8FF">OPEN TO INTERNSHIPS</text>
+      <rect x="474" y="356" width="214" height="34" rx="17" fill="#0D1124" stroke="#A855F7" stroke-opacity="0.82"/>
+      <text x="581" y="378" fill="#F3E8FF" font-size="14" text-anchor="middle">OPEN TO INTERNSHIPS</text>
     </g>
   </g>
 
