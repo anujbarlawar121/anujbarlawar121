@@ -102,7 +102,10 @@ function renderStatsSvg(stats) {
   <g>
     <rect x="452" y="206" width="406" height="74" rx="20" fill="#101227" stroke="#3D2A63"/>
     <text x="472" y="234" fill="#C4B5FD" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">RECRUITER READ</text>
-    <text x="472" y="260" fill="#E9DDFF" font-family="Consolas, 'Courier New', monospace" font-size="15">Visible public work, active stack diversity, and a profile built for AI internship discovery.</text>
+    <text fill="#E9DDFF" font-family="Consolas, 'Courier New', monospace" font-size="14">
+      <tspan x="472" y="256">Visible projects, strong stack,</tspan>
+      <tspan x="472" y="274">and internship-ready AI branding.</tspan>
+    </text>
   </g>
 </svg>`;
 }
@@ -155,10 +158,10 @@ function renderTrophySvg(stats) {
       return `
   <g>
     <rect x="${x}" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="${accent}" stroke-opacity="0.58"/>
-    <path d="M${x + 34} 114H${x + 92}L${x + 108} 130L${x + 92} 146H${x + 34}L${x + 18} 130L${x + 34} 114Z" fill="#111D35" stroke="${accent}" stroke-opacity="0.8"/>
-    <text x="${x + 124}" y="126" fill="${accent}" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">${escapeXml(item.label.toUpperCase())}</text>
-    <text x="${x + 36}" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">${escapeXml(item.value)}</text>
-    <text x="${x + 36}" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">${escapeXml(item.note)}</text>
+    <path d="M${x + 38} 110H${x + 112}L${x + 132} 130L${x + 112} 150H${x + 38}L${x + 18} 130L${x + 38} 110Z" fill="#111D35" stroke="${accent}" stroke-opacity="0.8"/>
+    <text x="${x + 75}" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">${escapeXml(item.value)}</text>
+    <text x="${x + 150}" y="126" fill="${accent}" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">${escapeXml(item.label.toUpperCase())}</text>
+    <text x="${x + 150}" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">${escapeXml(item.note)}</text>
   </g>`;
     })
     .join("");

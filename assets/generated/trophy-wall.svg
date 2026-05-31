@@ -11,30 +11,30 @@
   
   <g>
     <rect x="36" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#00D9FF" stroke-opacity="0.58"/>
-    <path d="M70 114H128L144 130L128 146H70L54 130L70 114Z" fill="#111D35" stroke="#00D9FF" stroke-opacity="0.8"/>
-    <text x="160" y="126" fill="#00D9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">REPOSITORY BUILDER</text>
-    <text x="72" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">10</text>
-    <text x="72" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">public repos</text>
+    <path d="M74 110H148L168 130L148 150H74L54 130L74 110Z" fill="#111D35" stroke="#00D9FF" stroke-opacity="0.8"/>
+    <text x="111" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">10</text>
+    <text x="186" y="126" fill="#00D9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">REPOSITORY BUILDER</text>
+    <text x="186" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">public repos</text>
   </g>
   <g>
     <rect x="422" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#8B5CF6" stroke-opacity="0.58"/>
-    <path d="M456 114H514L530 130L514 146H456L440 130L456 114Z" fill="#111D35" stroke="#8B5CF6" stroke-opacity="0.8"/>
-    <text x="546" y="126" fill="#8B5CF6" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">COMMUNITY SIGNAL</text>
-    <text x="458" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">5</text>
-    <text x="458" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">followers</text>
+    <path d="M460 110H534L554 130L534 150H460L440 130L460 110Z" fill="#111D35" stroke="#8B5CF6" stroke-opacity="0.8"/>
+    <text x="497" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">5</text>
+    <text x="572" y="126" fill="#8B5CF6" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">COMMUNITY SIGNAL</text>
+    <text x="572" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">followers</text>
   </g>
   <g>
     <rect x="808" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#14F195" stroke-opacity="0.58"/>
-    <path d="M842 114H900L916 130L900 146H842L826 130L842 114Z" fill="#111D35" stroke="#14F195" stroke-opacity="0.8"/>
-    <text x="932" y="126" fill="#14F195" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">STAR COLLECTOR</text>
-    <text x="844" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">3</text>
-    <text x="844" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">stars earned</text>
+    <path d="M846 110H920L940 130L920 150H846L826 130L846 110Z" fill="#111D35" stroke="#14F195" stroke-opacity="0.8"/>
+    <text x="883" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">3</text>
+    <text x="958" y="126" fill="#14F195" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">STAR COLLECTOR</text>
+    <text x="958" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">stars earned</text>
   </g>
   <g>
     <rect x="1194" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#F472B6" stroke-opacity="0.58"/>
-    <path d="M1228 114H1286L1302 130L1286 146H1228L1212 130L1228 114Z" fill="#111D35" stroke="#F472B6" stroke-opacity="0.8"/>
-    <text x="1318" y="126" fill="#F472B6" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">STACK EXPLORER</text>
-    <text x="1230" y="196" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800">5</text>
-    <text x="1230" y="230" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">top languages</text>
+    <path d="M1232 110H1306L1326 130L1306 150H1232L1212 130L1232 110Z" fill="#111D35" stroke="#F472B6" stroke-opacity="0.8"/>
+    <text x="1269" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">5</text>
+    <text x="1344" y="126" fill="#F472B6" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">STACK EXPLORER</text>
+    <text x="1344" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">top languages</text>
   </g>
 </svg>
