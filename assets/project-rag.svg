@@ -15,14 +15,17 @@
   <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#ragAccent)" stroke-opacity="0.72"/>
   <text x="60" y="74" fill="#7FEFFF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 01</text>
   <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">RAG-Based AI Teaching Assistant</text>
-  <text x="60" y="158" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">Context-aware academic assistant that retrieves trusted notes, explains concepts clearly, and supports smarter learning workflows.</text>
+  <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
+    <tspan x="60" y="154">Academic assistant that retrieves trusted notes</tspan>
+    <tspan x="60" y="176">and explains concepts with grounded answers.</tspan>
+  </text>
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#D8F8FF">
-    <rect x="60" y="178" width="96" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
-    <text x="86" y="196">PYTHON</text>
-    <rect x="168" y="178" width="126" height="26" rx="13" fill="#07192E" stroke="#35F3D3" stroke-opacity="0.52"/>
-    <text x="194" y="196">RAG FLOW</text>
-    <rect x="306" y="178" width="148" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
-    <text x="332" y="196">VECTOR SEARCH</text>
+    <rect x="60" y="192" width="96" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
+    <text x="86" y="210">PYTHON</text>
+    <rect x="168" y="192" width="126" height="26" rx="13" fill="#07192E" stroke="#35F3D3" stroke-opacity="0.52"/>
+    <text x="194" y="210">RAG FLOW</text>
+    <rect x="306" y="192" width="148" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
+    <text x="332" y="210">VECTOR SEARCH</text>
   </g>
   <g opacity="0.8">
     <path d="M888 72H1086L1126 110L1086 148H888L848 110L888 72Z" fill="#071A2F" stroke="#00D9FF" stroke-opacity="0.72"/>

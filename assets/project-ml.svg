@@ -15,14 +15,17 @@
   <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#mlAccent)" stroke-opacity="0.72"/>
   <text x="60" y="74" fill="#F9A8D4" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 04</text>
   <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Machine Learning Projects</text>
-  <text x="60" y="158" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="18">Model experimentation across supervised learning, feature engineering, evaluation, and practical real-world prediction tasks.</text>
+  <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
+    <tspan x="60" y="154">Applied ML experiments across features, evaluation,</tspan>
+    <tspan x="60" y="176">and practical real-world prediction tasks.</tspan>
+  </text>
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#FCE7F3">
-    <rect x="60" y="178" width="126" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
-    <text x="87" y="196">SCIKIT LEARN</text>
-    <rect x="198" y="178" width="126" height="26" rx="13" fill="#121129" stroke="#7C3AED" stroke-opacity="0.52"/>
-    <text x="231" y="196">MODELS</text>
-    <rect x="336" y="178" width="162" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
-    <text x="364" y="196">EVALUATION</text>
+    <rect x="60" y="192" width="126" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
+    <text x="87" y="210">SCIKIT LEARN</text>
+    <rect x="198" y="192" width="126" height="26" rx="13" fill="#121129" stroke="#7C3AED" stroke-opacity="0.52"/>
+    <text x="231" y="210">MODELS</text>
+    <rect x="336" y="192" width="162" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
+    <text x="364" y="210">EVALUATION</text>
   </g>
   <g opacity="0.86">
     <path d="M876 188C930 104 986 92 1040 148C1098 210 1136 172 1152 146" stroke="#F472B6" stroke-width="4" stroke-linecap="round"/>

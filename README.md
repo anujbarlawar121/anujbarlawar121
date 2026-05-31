@@ -1,6 +1,6 @@
 <!--
 If your GitHub username is not "anujbarlawar121", replace it globally in this file before publishing.
-If you want a live LeetCode card later, add your handle in the commented snippet inside the LeetCode section.
+If your Instagram or LeetCode handles change, update their links and badges below.
 -->
 
 <p align="center">
@@ -18,6 +18,12 @@ If you want a live LeetCode card later, add your handle in the commented snippet
   </a>
   <a href="https://in.linkedin.com/in/anuj-barlawar-4572a5290">
     <img src="https://img.shields.io/badge/LINKEDIN-LET%27S%20CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/anuj_barlawar/">
+    <img src="https://img.shields.io/badge/INSTAGRAM-ANUJ__BARLAWAR-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://leetcode.com/u/anuj_algo_02/">
+    <img src="https://img.shields.io/badge/LEETCODE-ANUJ__ALGO__02-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
   <img src="https://img.shields.io/badge/OPEN_TO-AI%20ML%20INTERNSHIPS-14F195?style=for-the-badge&labelColor=111827" alt="Open to internships" />
 </p>
@@ -47,6 +53,7 @@ focus:
   - RAG Systems
 primary_languages:
   - Python
+  - SQL
   - Java
 currently_building:
   - RAG-Based AI Teaching Assistant
@@ -79,35 +86,67 @@ open_to:
 
 ## Tech Stack
 
-**Core Build Stack**
+<p align="left">
+  Structured the way I actually build: languages, ML and AI libraries, GenAI systems, backend work, tools, and core applied concepts.
+</p>
+
+**Languages**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/SQL-0B1020?style=for-the-badge&logo=postgresql&logoColor=white&color=336791" alt="SQL" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit Learn" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
 </p>
 
-**AI / Data Focus**
+**ML / AI**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Machine%20Learning-0B1020?style=for-the-badge&color=00D9FF" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Data%20Science-0B1020?style=for-the-badge&color=7C3AED" alt="Data Science" />
-  <img src="https://img.shields.io/badge/Generative%20AI-0B1020?style=for-the-badge&color=00D9FF" alt="Generative AI" />
-  <img src="https://img.shields.io/badge/LLM%20Applications-0B1020?style=for-the-badge&color=7C3AED" alt="LLM Applications" />
-  <img src="https://img.shields.io/badge/RAG%20Systems-0B1020?style=for-the-badge&color=14F195" alt="RAG Systems" />
-  <img src="https://img.shields.io/badge/Prompt%20Design-0B1020?style=for-the-badge&color=00D9FF" alt="Prompt Design" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit Learn" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Matplotlib-0B1020?style=for-the-badge&color=11557C" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/YOLO-0B1020?style=for-the-badge&color=7C3AED" alt="YOLO" />
+  <img src="https://img.shields.io/badge/CNN-0B1020?style=for-the-badge&color=00D9FF" alt="CNN" />
+  <img src="https://img.shields.io/badge/LangChain-0B1020?style=for-the-badge&color=14F195" alt="LangChain" />
 </p>
 
-**Development Tools**
+**GenAI**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/RAG%20Pipelines-0B1020?style=for-the-badge&color=00D9FF" alt="RAG Pipelines" />
+  <img src="https://img.shields.io/badge/LLMs-0B1020?style=for-the-badge&color=7C3AED" alt="LLMs" />
+  <img src="https://img.shields.io/badge/Vector%20Embeddings-0B1020?style=for-the-badge&color=14F195" alt="Vector Embeddings" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-0B1020?style=for-the-badge&color=00D9FF" alt="Prompt Engineering" />
+</p>
+
+**Web Dev**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/REST%20APIs-0B1020?style=for-the-badge&color=7C3AED" alt="REST APIs" />
+</p>
+
+**Tools**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
+  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+</p>
+
+**Concepts**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Supervised%20ML-0B1020?style=for-the-badge&color=00D9FF" alt="Supervised ML" />
+  <img src="https://img.shields.io/badge/Unsupervised%20ML-0B1020?style=for-the-badge&color=7C3AED" alt="Unsupervised ML" />
+  <img src="https://img.shields.io/badge/NLP-0B1020?style=for-the-badge&color=14F195" alt="NLP" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-0B1020?style=for-the-badge&color=00D9FF" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/Feature%20Engineering-0B1020?style=for-the-badge&color=7C3AED" alt="Feature Engineering" />
+  <img src="https://img.shields.io/badge/Data%20Visualization-0B1020?style=for-the-badge&color=14F195" alt="Data Visualization" />
 </p>
 
 <p align="center">
@@ -199,17 +238,20 @@ open_to:
 
 ## LeetCode and Problem Solving
 
-<!--
-When your LeetCode username is ready, replace the placeholder below with a live card like this:
-[![LeetCode Stats](https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Baloo_2&ext=heatmap)](https://leetcode.com/u/YOUR_LEETCODE_USERNAME/)
--->
-
 <p align="center">
-  <img src="./assets/leetcode-placeholder.svg" alt="LeetCode stats placeholder" width="100%" />
+  <a href="https://leetcode.com/u/anuj_algo_02/">
+    <img src="https://leetcard.jacoblin.cool/anuj_algo_02?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode stats" width="100%" />
+  </a>
 </p>
 
 <p align="center">
-  This section is intentionally ready for a live DSA signal once your LeetCode handle is connected.
+  <a href="https://leetcode.com/u/anuj_algo_02/">
+    <img src="https://img.shields.io/badge/LeetCode-anuj__algo__02-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile badge" />
+  </a>
+</p>
+
+<p align="center">
+  Live DSA signal for interview prep, consistency, and problem-solving momentum.
 </p>
 
 <p align="center">
@@ -223,12 +265,18 @@ When your LeetCode username is ready, replace the placeholder below with a live 
 - I bring a mix of technical curiosity, visual presentation, and a clear willingness to build in public and improve fast.
 
 <p align="center">
-  If you are hiring for an AI or ML internship, or want to collaborate on something meaningful, LinkedIn is the fastest way to reach me.
+  If you are hiring for an AI or ML internship, LinkedIn is the fastest way to reach me, while Instagram and LeetCode show more of my builder journey and problem-solving consistency.
 </p>
 
 <p align="center">
   <a href="https://in.linkedin.com/in/anuj-barlawar-4572a5290">
     <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/anuj_barlawar/">
+    <img src="https://img.shields.io/badge/Instagram-anuj__barlawar-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://leetcode.com/u/anuj_algo_02/">
+    <img src="https://img.shields.io/badge/LeetCode-anuj__algo__02-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
 </p>
 
