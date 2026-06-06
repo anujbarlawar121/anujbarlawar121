@@ -116,7 +116,6 @@ open_to:
 <p align="left">
   <img src="https://img.shields.io/badge/RAG%20Pipelines-0B1020?style=for-the-badge&color=00D9FF" alt="RAG Pipelines" />
   <img src="https://img.shields.io/badge/LLMs-0B1020?style=for-the-badge&color=7C3AED" alt="LLMs" />
-  <img src="https://img.shields.io/badge/Vector%20Embeddings-0B1020?style=for-the-badge&color=14F195" alt="Vector Embeddings" />
   <img src="https://img.shields.io/badge/Prompt%20Engineering-0B1020?style=for-the-badge&color=00D9FF" alt="Prompt Engineering" />
 </p>
 
@@ -124,7 +123,6 @@ open_to:
 
 <p align="left">
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/REST%20APIs-0B1020?style=for-the-badge&color=7C3AED" alt="REST APIs" />
 </p>
 
 **Tools**
