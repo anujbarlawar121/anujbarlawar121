@@ -171,31 +171,20 @@ Most of my public work is made of student projects, experiments, dashboards, and
   <img src="./assets/project-ds.svg" alt="Power BI dashboard practice card" width="100%" />
 </p>
 
-| Project | Problem & Solution | Stack / Architecture | Evidence & Next Step |
-| --- | --- | --- | --- |
-| [RAG-Based-Project](https://github.com/anujbarlawar121/RAG-Based-Project) | Turns lecture/video material into a simple question-answering workflow for learning RAG. | Python-based RAG pipeline with transcription, chunking, retrieval, and answer generation practice. | Public repo and README. Next: improve retrieval quality and document architecture more clearly. |
-| [infotainment-](https://github.com/anujbarlawar121/infotainment-) | Practices building a content-focused web app with structured data and recommendation-oriented features. | Flask app with SQL schema, routes, templates, and content/feed logic. | Public repo. Next: improve README, setup steps, and architecture notes. |
-| [smart-object-detector](https://github.com/anujbarlawar121/smart-object-detector) | Tests object detection from browser camera or image upload in a small Flask app. | Flask backend with browser UI and detection demo flow. | Public repo. Next: document model limitations and add clearer screenshots. |
-| [PDF-Merger-Python](https://github.com/anujbarlawar121/PDF-Merger-Python) | Provides a small Python utility for PDF merge/extract/convert-style tasks. | Python utility project focused on file handling and practical automation. | Public repo. Next: simplify setup and add examples for each feature. |
-| [cars-sales-powerbi-dashboard](https://github.com/anujbarlawar121/cars-sales-powerbi-dashboard) and [PowerBI-Weather-Dashboard](https://github.com/anujbarlawar121/PowerBI-Weather-Dashboard) | Practices turning datasets into readable dashboard views. | Power BI dashboards with visual analysis and reporting practice. | Public repos. Next: add screenshots, dataset notes, and insights summary. |
-| [python-data-analysis-eda](https://github.com/anujbarlawar121/python-data-analysis-eda) | Practices basic data analysis using Python notebooks/files. | Python, Pandas, NumPy, and notebook-based exploration. | Public repo. Next: add a clearer problem statement and conclusion section. |
-
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
 ## Repository Standards I Am Working Toward
 
-- Problem statement.
-- Architecture diagram.
-- Screenshots or demo media when the project has a UI.
-- Installation and setup steps.
-- Tech stack with context.
-- Key features.
-- Challenges and lessons learned.
+- Clear problem statement.
+- Simple README.
+- Architecture diagram when appropriate.
+- Screenshots for UI projects.
+- Installation steps.
+- Well-organized code.
+- Lessons learned.
 - Future improvements.
-- Meaningful commit history.
-- Deployment instructions when applicable.
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
@@ -203,11 +192,10 @@ Most of my public work is made of student projects, experiments, dashboards, and
 
 ## Certifications & Accomplishments
 
-- Completed Python Bootcamp coursework through CodeWithHarry.
-- Completed IBM Data Science coursework/certification.
-- Completed IBM SQL coursework/certification.
-- Built public student projects across Python, Flask, SQL, Power BI, data analysis, and beginner RAG experiments.
-- Practicing Data Structures and Algorithms in Python through [LeetCode](https://leetcode.com/u/anuj_algo_02/).
+- Completed `Complete 2025 Python Bootcamp: Learn Python from Scratch` by CodeWithHarry.
+- Completed `The Ultimate Job Ready Data Science Course` by CodeWithHarry.
+- Completed `Databases and SQL for Data Science with Python` by IBM.
+- Building public Python, Flask, Power BI, and AI learning projects while preparing for internships.
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
@@ -237,10 +225,10 @@ Most of my public work is made of student projects, experiments, dashboards, and
 
 ## Engineering Notes
 
-- I prefer building working software before adding advanced optimizations.
-- I try to understand why a solution works before using advanced frameworks.
-- I document what I build, what I learn, and what I would improve next.
-- I value clean project structure and readable documentation.
+- I enjoy learning by building practical projects.
+- I focus on writing clean and readable code.
+- I document my projects to better understand and explain them.
+- I continue improving my projects as I learn new concepts.
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
@@ -248,9 +236,7 @@ Most of my public work is made of student projects, experiments, dashboards, and
 
 ## What I Am Looking For
 
-I am looking for internships where I can build real software, learn from experienced engineers, contribute to practical projects, and strengthen my software engineering skills.
-
-The strongest interview topics from this profile are the public repositories linked above: what I built, what decisions I made, where I got stuck, and what I would improve next.
+I am looking for internship opportunities where I can learn from experienced engineers, build practical Python, Data Science, and AI projects, improve my software engineering fundamentals, and contribute while continuing to learn.
 
 <p align="center">
   <a href="https://in.linkedin.com/in/anuj-barlawar-4572a5290">
