@@ -19,6 +19,15 @@ Repository creation on GitHub was not automated from this workspace because GitH
 4. Replace or expand the Certifications section only with credentials you have completed.
 5. Pin your best repositories on the GitHub profile itself so the README and pinned repos reinforce each other.
 
+## Enable the Snake Animation
+
+1. Push the workflow files in `.github/workflows/`.
+2. In your GitHub repository, go to `Settings` -> `Actions` -> `General`.
+3. Make sure Actions are allowed.
+4. In `Settings` -> `Actions` -> `Workflow permissions`, enable **Read and write permissions**.
+5. Run the `Generate Contribution Snake` workflow once manually from the `Actions` tab.
+6. After the first run, the `output` branch will be created automatically and the snake animation will appear in the README.
+
 ## Auto-Refresh Profile Cards
 
 1. The `Refresh Profile Assets` workflow generates repository statistics and language cards from the GitHub API.
@@ -36,7 +45,8 @@ The README links to `anuj_algo_02` without showing a stats card. If your handle 
 |-- .github
 |   `-- workflows
 |       |-- profile-assets.yml
-|       `-- profile-health.yml
+|       |-- profile-health.yml
+|       `-- snake.yml
 |-- assets
 |   |-- divider.svg
 |   |-- footer.svg
@@ -60,4 +70,4 @@ The README links to `anuj_algo_02` without showing a stats card. If your handle 
 - Confirm the LeetCode handle still matches your public profile.
 - Keep the README focused on your strongest 3 to 5 finished projects.
 - Update pinned repositories, bio, profile photo, and profile headline so they match the README branding.
-- Run the profile health workflow after major profile changes if you want to verify everything end to end.
+- Re-run the snake workflow after major profile changes if you want to verify everything end to end.

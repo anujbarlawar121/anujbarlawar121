@@ -125,12 +125,24 @@ Most of my public work is made of student projects, experiments, dashboards, and
 ## Public GitHub Data
 
 <p align="center">
-  <sub>Generated from public GitHub repository data. I keep this section limited to repository statistics and language breakdown.</sub>
+  <sub>Generated from public GitHub repository data, language breakdown, and contribution visuals.</sub>
 </p>
 
 <p align="center">
   <img width="49%" src="./assets/generated/github-stats.svg" alt="Public repository snapshot" />
   <img width="42%" src="./assets/generated/top-languages.svg" alt="Languages detected in public repositories" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=anujbarlawar121&bg_color=0D1117&color=8BE9FF&line=00D9FF&point=7C3AED&area=true&hide_border=true&radius=16&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anujbarlawar121/anujbarlawar121/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anujbarlawar121/anujbarlawar121/output/github-contribution-grid-snake.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/anujbarlawar121/anujbarlawar121/output/github-contribution-grid-snake-dark.svg" alt="Contribution grid snake animation" />
+  </picture>
 </p>
 
 <p align="center">
@@ -195,7 +207,29 @@ Most of my public work is made of student projects, experiments, dashboards, and
 - Completed IBM Data Science coursework/certification.
 - Completed IBM SQL coursework/certification.
 - Built public student projects across Python, Flask, SQL, Power BI, data analysis, and beginner RAG experiments.
-- Practicing Data Structures and Algorithms in Python through [LeetCode](https://leetcode.com/u/anuj_algo_02/); I link the profile without showing stats until the problem count is stronger.
+- Practicing Data Structures and Algorithms in Python through [LeetCode](https://leetcode.com/u/anuj_algo_02/).
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="divider" width="100%" />
+</p>
+
+## LeetCode and Problem Solving
+
+<p align="center">
+  <a href="https://leetcode.com/u/anuj_algo_02/">
+    <img src="https://leetcard.jacoblin.cool/anuj_algo_02?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode stats" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/anuj_algo_02/">
+    <img src="https://img.shields.io/badge/LeetCode-anuj__algo__02-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile badge" />
+  </a>
+</p>
+
+<p align="center">
+  Live DSA signal for interview prep, consistency, and problem-solving momentum.
+</p>
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />

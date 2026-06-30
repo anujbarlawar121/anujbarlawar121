@@ -37,6 +37,7 @@ jobs:
             "assets/project-chatbots.svg"
             "assets/project-ds.svg"
             "assets/project-ml.svg"
+            ".github/workflows/snake.yml"
             ".github/workflows/profile-assets.yml"
             "scripts/generate-profile-assets.mjs"
           )
@@ -57,6 +58,8 @@ jobs:
 
           urls=(
             "https://readme-typing-svg.demolab.com/?lines=health-check"
+            "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=tokyo-night"
+            "https://leetcard.jacoblin.cool/anuj_algo_02?theme=dark&font=Fira%20Code&ext=heatmap"
           )
 
           for url in "${urls[@]}"; do
