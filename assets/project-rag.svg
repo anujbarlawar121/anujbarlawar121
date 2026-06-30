@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ragTitle ragDesc">
-  <title id="ragTitle">RAG Lecture QA Experiment project card</title>
-  <desc id="ragDesc">Project card for a beginner retrieval-augmented lecture question-answering experiment.</desc>
+  <title id="ragTitle">RAG-Based AI Teaching Assistant project card</title>
+  <desc id="ragDesc">Project card for a beginner retrieval-augmented question-answering assistant.</desc>
   <defs>
     <linearGradient id="ragBg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#07111F"/>
@@ -14,10 +14,10 @@
   <rect width="1200" height="260" rx="28" fill="url(#ragBg)"/>
   <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.82" stroke="url(#ragAccent)" stroke-opacity="0.42"/>
   <text x="60" y="74" fill="#7FEFFF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 01</text>
-  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">RAG Lecture QA Experiment</text>
+  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">RAG-Based AI Teaching Assistant</text>
   <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
-    <tspan x="60" y="154">A beginner RAG project for turning lecture videos</tspan>
-    <tspan x="60" y="176">into a simple question-answering assistant.</tspan>
+    <tspan x="60" y="154">A learning project for turning lecture/video material</tspan>
+    <tspan x="60" y="176">into a simple question-answering workflow.</tspan>
   </text>
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#D8F8FF">
     <rect x="60" y="192" width="96" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>

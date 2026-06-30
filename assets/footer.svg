@@ -20,5 +20,5 @@
   <path d="M180 92H1420" stroke="url(#footerLine)" stroke-width="1.5"/>
   <text x="800" y="78" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="4">PROJECTS + LEARNING NOTES</text>
   <text x="800" y="128" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle">This profile shows the projects I have built so far and what I am learning next.</text>
-  <text x="800" y="164" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="18" text-anchor="middle">Open to internships in AI, data, Python, and backend development.</text>
+  <text x="800" y="164" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="18" text-anchor="middle">Open to internships in Python, Data Science, Machine Learning, and AI.</text>
 </svg>

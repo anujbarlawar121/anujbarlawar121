@@ -37,9 +37,9 @@
 
   <g>
     <rect x="42" y="206" width="816" height="74" rx="20" fill="#0A172B" stroke="#224A70"/>
-    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">TOP LANGUAGES</text>
+    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">WHAT THIS COUNTS</text>
     <text fill="#D7E7FF" font-family="Consolas, 'Courier New', monospace" font-size="15">
-      <tspan x="62" y="260">HTML  //  Python  //  Jupyter Notebook  //  JavaScript</tspan>
+      <tspan x="62" y="260">Repository metadata only. No follower or popularity cards.</tspan>
     </text>
   </g>
 </svg>

@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mlTitle mlDesc">
-  <title id="mlTitle">Flask Recommendation Practice project card</title>
-  <desc id="mlDesc">Project card for a Flask recommendation practice app.</desc>
+  <title id="mlTitle">Infotainment Flask App project card</title>
+  <desc id="mlDesc">Project card for a Flask app with SQL schema and recommendation-oriented practice.</desc>
   <defs>
     <linearGradient id="mlBg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#071121"/>
@@ -14,10 +14,10 @@
   <rect width="1200" height="260" rx="28" fill="url(#mlBg)"/>
   <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.82" stroke="url(#mlAccent)" stroke-opacity="0.42"/>
   <text x="60" y="74" fill="#F9A8D4" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 04</text>
-  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Flask Recommendation Practice</text>
+  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Infotainment Flask App</text>
   <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
-    <tspan x="60" y="154">A Flask project that combines SQL, recommendation</tspan>
-    <tspan x="60" y="176">ideas, and content feeds for learning app structure.</tspan>
+    <tspan x="60" y="154">A Flask project for practicing SQL-backed content feeds,</tspan>
+    <tspan x="60" y="176">routes, templates, and recommendation-oriented ideas.</tspan>
   </text>
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#FCE7F3">
     <rect x="60" y="192" width="96" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
@@ -25,7 +25,7 @@
     <rect x="168" y="192" width="82" height="26" rx="13" fill="#121129" stroke="#7C3AED" stroke-opacity="0.52"/>
     <text x="194" y="210">SQL</text>
     <rect x="262" y="192" width="116" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
-    <text x="289" y="210">RECSYS</text>
+    <text x="289" y="210">APP LOGIC</text>
   </g>
   <g opacity="0.6">
     <path d="M876 188C930 104 986 92 1040 148C1098 210 1136 172 1152 146" stroke="#F472B6" stroke-width="4" stroke-linecap="round"/>

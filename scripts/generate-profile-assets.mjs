@@ -57,7 +57,6 @@ async function getAllRepos() {
 function renderStatsSvg(stats) {
   const updated = escapeXml(stats.updatedAt);
   const login = escapeXml(stats.login);
-  const topLanguageNames = stats.topLanguages.slice(0, 4).map((item) => item.name).join("  //  ") || "No language data yet";
   return `<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="statsBg" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
@@ -97,9 +96,9 @@ function renderStatsSvg(stats) {
 
   <g>
     <rect x="42" y="206" width="816" height="74" rx="20" fill="#0A172B" stroke="#224A70"/>
-    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">TOP LANGUAGES</text>
+    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">WHAT THIS COUNTS</text>
     <text fill="#D7E7FF" font-family="Consolas, 'Courier New', monospace" font-size="15">
-      <tspan x="62" y="260">${escapeXml(topLanguageNames)}</tspan>
+      <tspan x="62" y="260">Repository metadata only. No follower or popularity cards.</tspan>
     </text>
   </g>
 </svg>`;
@@ -135,43 +134,6 @@ function renderLanguagesSvg(stats) {
   <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">LANGUAGES IN PUBLIC REPOS</text>
   <text x="42" y="82" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">Based on GitHub language data for ${escapeXml(stats.login)}</text>
   ${rows}
-</svg>`;
-}
-
-function renderRepoOverviewSvg(stats) {
-  const items = [
-    { label: "Public Repos", value: formatNumber(stats.publicRepos), note: "visible repositories" },
-    { label: "Original Repos", value: formatNumber(stats.originalRepos), note: "not forks" },
-    { label: "Forked Repos", value: formatNumber(stats.forkedRepos), note: "public forks" },
-    { label: "Languages", value: formatNumber(stats.topLanguages.length), note: "detected by GitHub" },
-  ];
-
-  const cards = items
-    .map((item, index) => {
-      const x = 36 + index * 386;
-      const accent = ["#00D9FF", "#8B5CF6", "#14F195", "#F472B6"][index];
-      return `
-  <g>
-    <rect x="${x}" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="${accent}" stroke-opacity="0.42"/>
-    <path d="M${x + 38} 110H${x + 112}L${x + 132} 130L${x + 112} 150H${x + 38}L${x + 18} 130L${x + 38} 110Z" fill="#111D35" stroke="${accent}" stroke-opacity="0.56"/>
-    <text x="${x + 75}" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">${escapeXml(item.value)}</text>
-    <text x="${x + 150}" y="126" fill="${accent}" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">${escapeXml(item.label.toUpperCase())}</text>
-    <text x="${x + 150}" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">${escapeXml(item.note)}</text>
-  </g>`;
-    })
-    .join("");
-
-  return `<svg width="1600" height="320" viewBox="0 0 1600 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="repoOverviewBg" x1="0" y1="0" x2="1600" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#06111F"/>
-      <stop offset="1" stop-color="#120A1F"/>
-    </linearGradient>
-  </defs>
-  <rect width="1600" height="320" rx="28" fill="url(#repoOverviewBg)"/>
-  <text x="38" y="46" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PUBLIC REPO OVERVIEW</text>
-  <text x="38" y="68" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">Counts below come from public repository metadata, not vanity profile metrics.</text>
-  ${cards}
 </svg>`;
 }
 
@@ -215,7 +177,6 @@ async function main() {
   await mkdir("assets/generated", { recursive: true });
   await writeFile("assets/generated/github-stats.svg", renderStatsSvg(stats), "utf8");
   await writeFile("assets/generated/top-languages.svg", renderLanguagesSvg(stats), "utf8");
-  await writeFile("assets/generated/repo-overview.svg", renderRepoOverviewSvg(stats), "utf8");
 }
 
 await main();

@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chatTitle chatDesc">
-  <title id="chatTitle">Browser Object Detection Practice project card</title>
-  <desc id="chatDesc">Project card for a browser-based object detection practice app.</desc>
+  <title id="chatTitle">Smart Object Detector project card</title>
+  <desc id="chatDesc">Project card for a browser-based object detection demo app.</desc>
   <defs>
     <linearGradient id="chatBg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#081021"/>
@@ -14,7 +14,7 @@
   <rect width="1200" height="260" rx="28" fill="url(#chatBg)"/>
   <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.82" stroke="url(#chatAccent)" stroke-opacity="0.42"/>
   <text x="60" y="74" fill="#C4B5FD" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 02</text>
-  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Browser Object Detection Practice</text>
+  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Smart Object Detector</text>
   <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
     <tspan x="60" y="154">A Flask app for trying browser camera and image upload</tspan>
     <tspan x="60" y="176">detection with labels and quick feedback.</tspan>

@@ -1,6 +1,6 @@
 <svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">Anuj Barlawar GitHub profile banner</title>
-  <desc id="heroDesc">Dark cyber-inspired banner for an AI and data science student portfolio.</desc>
+  <desc id="heroDesc">Dark cyber-inspired banner for a Python, data science, machine learning, and AI student portfolio.</desc>
   <defs>
     <linearGradient id="bgGradient" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#04070F"/>
@@ -73,10 +73,10 @@
     <circle cx="158" cy="83" r="5" fill="#14F195"/>
     <text x="190" y="88" fill="#86A7D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="3">PROFILE.README // STUDENT PORTFOLIO</text>
 
-    <text x="118" y="165" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">PYTHON / DATA / STUDENT PROJECTS</text>
-    <text x="116" y="238" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="2">ANUJ BARLAWAR</text>
-    <text x="118" y="286" fill="#A9C5FF" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="2">B.TECH AI AND DATA SCIENCE STUDENT</text>
-    <text x="118" y="328" fill="#85A6D5" font-family="Consolas, 'Courier New', monospace" font-size="19">Student projects in Python, dashboards, and beginner RAG workflows.</text>
+    <text x="118" y="165" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">PYTHON / DATA SCIENCE / AI PROJECTS</text>
+    <text x="116" y="238" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="2">ANUJ RAJESHWAR BARLAWAR</text>
+    <text x="118" y="286" fill="#A9C5FF" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="2">FOURTH-YEAR B.TECH AI AND DATA SCIENCE STUDENT</text>
+    <text x="118" y="328" fill="#85A6D5" font-family="Consolas, 'Courier New', monospace" font-size="19">Practical Python, data science, ML, and AI learning projects.</text>
 
     <g font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">
       <rect x="118" y="356" width="110" height="34" rx="17" fill="#08192C" stroke="#00D9FF" stroke-opacity="0.75"/>
@@ -113,7 +113,7 @@
       <rect x="34" y="224" width="138" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.28"/>
       <text x="57" y="241">RAG BASICS</text>
       <rect x="188" y="224" width="132" height="26" rx="13" fill="#111126" stroke="#A855F7" stroke-opacity="0.28"/>
-      <text x="214" y="241">JAVA DSA</text>
+      <text x="206" y="241">PYTHON DSA</text>
     </g>
   </g>
 

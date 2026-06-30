@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dsTitle dsDesc">
-  <title id="dsTitle">Data Analysis and Visualization Practice card</title>
-  <desc id="dsDesc">Project card for beginner data analysis and visualization practice.</desc>
+  <title id="dsTitle">Power BI Dashboard Practice card</title>
+  <desc id="dsDesc">Project card for beginner Power BI dashboard and visualization practice.</desc>
   <defs>
     <linearGradient id="dsBg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#07121D"/>
@@ -14,10 +14,10 @@
   <rect width="1200" height="260" rx="28" fill="url(#dsBg)"/>
   <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.82" stroke="url(#dsAccent)" stroke-opacity="0.42"/>
   <text x="60" y="74" fill="#74F8C6" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 03</text>
-  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Data Analysis &amp; Visualization Practice</text>
+  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Power BI Dashboard Practice</text>
   <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
-    <tspan x="60" y="154">Small Python and Power BI projects for practicing</tspan>
-    <tspan x="60" y="176">cleaning, analysis, and dashboard storytelling.</tspan>
+    <tspan x="60" y="154">Dashboard projects for practicing visual analysis,</tspan>
+    <tspan x="60" y="176">dataset interpretation, and clear reporting.</tspan>
   </text>
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#DBFFF2">
     <rect x="60" y="192" width="104" height="26" rx="13" fill="#071A1F" stroke="#14F195" stroke-opacity="0.52"/>
