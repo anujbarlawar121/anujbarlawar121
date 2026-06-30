@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ragTitle ragDesc">
-  <title id="ragTitle">RAG-Based AI Teaching Assistant project card</title>
-  <desc id="ragDesc">Project card for a retrieval augmented teaching assistant.</desc>
+  <title id="ragTitle">RAG Lecture QA Experiment project card</title>
+  <desc id="ragDesc">Project card for a beginner retrieval-augmented lecture question-answering experiment.</desc>
   <defs>
     <linearGradient id="ragBg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#07111F"/>
@@ -12,25 +12,25 @@
     </linearGradient>
   </defs>
   <rect width="1200" height="260" rx="28" fill="url(#ragBg)"/>
-  <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#ragAccent)" stroke-opacity="0.72"/>
+  <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.82" stroke="url(#ragAccent)" stroke-opacity="0.42"/>
   <text x="60" y="74" fill="#7FEFFF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 01</text>
-  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">RAG-Based AI Teaching Assistant</text>
+  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">RAG Lecture QA Experiment</text>
   <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
-    <tspan x="60" y="154">Academic assistant that retrieves trusted notes</tspan>
-    <tspan x="60" y="176">and explains concepts with grounded answers.</tspan>
+    <tspan x="60" y="154">A beginner RAG project for turning lecture videos</tspan>
+    <tspan x="60" y="176">into a simple question-answering assistant.</tspan>
   </text>
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#D8F8FF">
     <rect x="60" y="192" width="96" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
     <text x="86" y="210">PYTHON</text>
-    <rect x="168" y="192" width="126" height="26" rx="13" fill="#07192E" stroke="#35F3D3" stroke-opacity="0.52"/>
-    <text x="194" y="210">RAG FLOW</text>
-    <rect x="306" y="192" width="148" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
-    <text x="332" y="210">VECTOR SEARCH</text>
+    <rect x="168" y="192" width="120" height="26" rx="13" fill="#07192E" stroke="#35F3D3" stroke-opacity="0.52"/>
+    <text x="193" y="210">WHISPER</text>
+    <rect x="300" y="192" width="128" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
+    <text x="323" y="210">RETRIEVAL</text>
   </g>
-  <g opacity="0.8">
-    <path d="M888 72H1086L1126 110L1086 148H888L848 110L888 72Z" fill="#071A2F" stroke="#00D9FF" stroke-opacity="0.72"/>
-    <text x="987" y="116" fill="#D8F8FF" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" text-anchor="middle">QUERY</text>
-    <path d="M914 170H1110" stroke="#2AD6FF" stroke-width="2" stroke-opacity="0.72"/>
+  <g opacity="0.6">
+    <path d="M888 72H1086L1126 110L1086 148H888L848 110L888 72Z" fill="#071A2F" stroke="#00D9FF" stroke-opacity="0.58"/>
+    <text x="987" y="116" fill="#D8F8FF" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" text-anchor="middle">RAG</text>
+    <path d="M914 170H1110" stroke="#2AD6FF" stroke-width="2" stroke-opacity="0.58"/>
     <circle cx="914" cy="170" r="8" fill="#00D9FF"/>
     <circle cx="980" cy="170" r="8" fill="#35F3D3"/>
     <circle cx="1046" cy="170" r="8" fill="#00D9FF"/>

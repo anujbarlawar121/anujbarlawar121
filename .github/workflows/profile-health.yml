@@ -33,7 +33,7 @@ jobs:
             "assets/footer.svg"
             "assets/generated/github-stats.svg"
             "assets/generated/top-languages.svg"
-            "assets/generated/trophy-wall.svg"
+            "assets/generated/repo-overview.svg"
             "assets/project-rag.svg"
             "assets/project-chatbots.svg"
             "assets/project-ds.svg"
@@ -59,10 +59,7 @@ jobs:
 
           urls=(
             "https://readme-typing-svg.demolab.com/?lines=health-check"
-            "https://komarev.com/ghpvc/?username=${USERNAME}&style=for-the-badge"
-            "https://streak-stats.demolab.com/?user=${USERNAME}"
             "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=tokyo-night"
-            "https://leetcard.jacoblin.cool/anuj_algo_02?theme=dark&font=Fira%20Code&ext=heatmap"
           )
 
           for url in "${urls[@]}"; do

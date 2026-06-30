@@ -57,6 +57,7 @@ async function getAllRepos() {
 function renderStatsSvg(stats) {
   const updated = escapeXml(stats.updatedAt);
   const login = escapeXml(stats.login);
+  const topLanguageNames = stats.topLanguages.slice(0, 4).map((item) => item.name).join("  //  ") || "No language data yet";
   return `<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="statsBg" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
@@ -69,42 +70,36 @@ function renderStatsSvg(stats) {
     </linearGradient>
   </defs>
   <rect width="900" height="320" rx="28" fill="url(#statsBg)"/>
-  <rect x="18" y="18" width="864" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#statsAccent)" stroke-opacity="0.72"/>
-  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">GITHUB SIGNALS</text>
-  <text x="42" y="88" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="15">Live API sync for ${login} // Updated ${updated}</text>
+  <rect x="18" y="18" width="864" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#statsAccent)" stroke-opacity="0.52"/>
+  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PUBLIC REPOSITORY SNAPSHOT</text>
+  <text x="42" y="88" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="15">Public GitHub data for ${login} // Updated ${updated}</text>
 
   <g>
-    <rect x="42" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#00D9FF" stroke-opacity="0.5"/>
+    <rect x="42" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#00D9FF" stroke-opacity="0.38"/>
     <text x="60" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">PUBLIC REPOS</text>
     <text x="60" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">${formatNumber(stats.publicRepos)}</text>
   </g>
   <g>
-    <rect x="244" y="116" width="186" height="72" rx="18" fill="#101227" stroke="#8B5CF6" stroke-opacity="0.5"/>
-    <text x="262" y="143" fill="#A78BFA" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">FOLLOWERS</text>
-    <text x="262" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">${formatNumber(stats.followers)}</text>
+    <rect x="244" y="116" width="186" height="72" rx="18" fill="#101227" stroke="#8B5CF6" stroke-opacity="0.38"/>
+    <text x="262" y="143" fill="#A78BFA" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">ORIGINAL REPOS</text>
+    <text x="262" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">${formatNumber(stats.originalRepos)}</text>
   </g>
   <g>
-    <rect x="446" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#14F195" stroke-opacity="0.5"/>
-    <text x="464" y="143" fill="#7DF6C8" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">FOLLOWING</text>
-    <text x="464" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">${formatNumber(stats.following)}</text>
+    <rect x="446" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#14F195" stroke-opacity="0.38"/>
+    <text x="464" y="143" fill="#7DF6C8" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">FORKED REPOS</text>
+    <text x="464" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">${formatNumber(stats.forkedRepos)}</text>
   </g>
   <g>
-    <rect x="648" y="116" width="210" height="72" rx="18" fill="#101227" stroke="#00D9FF" stroke-opacity="0.5"/>
-    <text x="666" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">STARS EARNED</text>
-    <text x="666" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">${formatNumber(stats.stars)}</text>
+    <rect x="648" y="116" width="210" height="72" rx="18" fill="#101227" stroke="#00D9FF" stroke-opacity="0.38"/>
+    <text x="666" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">LANGUAGES</text>
+    <text x="666" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">${formatNumber(stats.topLanguages.length)}</text>
   </g>
 
   <g>
-    <rect x="42" y="206" width="392" height="74" rx="20" fill="#0A172B" stroke="#224A70"/>
-    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">PORTFOLIO MOMENTUM</text>
-    <text x="62" y="260" fill="#D7E7FF" font-family="Consolas, 'Courier New', monospace" font-size="15">Public repos: ${formatNumber(stats.publicRepos)}  |  Stars: ${formatNumber(stats.stars)}  |  Forks: ${formatNumber(stats.forks)}</text>
-  </g>
-  <g>
-    <rect x="452" y="206" width="406" height="74" rx="20" fill="#101227" stroke="#3D2A63"/>
-    <text x="472" y="234" fill="#C4B5FD" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">RECRUITER READ</text>
-    <text fill="#E9DDFF" font-family="Consolas, 'Courier New', monospace" font-size="14">
-      <tspan x="472" y="256">Visible projects, strong stack,</tspan>
-      <tspan x="472" y="274">and internship-ready AI branding.</tspan>
+    <rect x="42" y="206" width="816" height="74" rx="20" fill="#0A172B" stroke="#224A70"/>
+    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">TOP LANGUAGES</text>
+    <text fill="#D7E7FF" font-family="Consolas, 'Courier New', monospace" font-size="15">
+      <tspan x="62" y="260">${escapeXml(topLanguageNames)}</tspan>
     </text>
   </g>
 </svg>`;
@@ -136,19 +131,19 @@ function renderLanguagesSvg(stats) {
     </linearGradient>
   </defs>
   <rect width="700" height="320" rx="28" fill="url(#langBg)"/>
-  <rect x="18" y="18" width="664" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#00D9FF" stroke-opacity="0.56"/>
-  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">MOST USED LANGUAGES</text>
-  <text x="42" y="82" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">Calculated from public repositories owned by ${escapeXml(stats.login)}</text>
+  <rect x="18" y="18" width="664" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#00D9FF" stroke-opacity="0.42"/>
+  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">LANGUAGES IN PUBLIC REPOS</text>
+  <text x="42" y="82" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">Based on GitHub language data for ${escapeXml(stats.login)}</text>
   ${rows}
 </svg>`;
 }
 
-function renderTrophySvg(stats) {
+function renderRepoOverviewSvg(stats) {
   const items = [
-    { label: "Repository Builder", value: formatNumber(stats.publicRepos), note: "public repos" },
-    { label: "Community Signal", value: formatNumber(stats.followers), note: "followers" },
-    { label: "Star Collector", value: formatNumber(stats.stars), note: "stars earned" },
-    { label: "Stack Explorer", value: formatNumber(stats.topLanguages.length), note: "top languages" },
+    { label: "Public Repos", value: formatNumber(stats.publicRepos), note: "visible repositories" },
+    { label: "Original Repos", value: formatNumber(stats.originalRepos), note: "not forks" },
+    { label: "Forked Repos", value: formatNumber(stats.forkedRepos), note: "public forks" },
+    { label: "Languages", value: formatNumber(stats.topLanguages.length), note: "detected by GitHub" },
   ];
 
   const cards = items
@@ -157,8 +152,8 @@ function renderTrophySvg(stats) {
       const accent = ["#00D9FF", "#8B5CF6", "#14F195", "#F472B6"][index];
       return `
   <g>
-    <rect x="${x}" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="${accent}" stroke-opacity="0.58"/>
-    <path d="M${x + 38} 110H${x + 112}L${x + 132} 130L${x + 112} 150H${x + 38}L${x + 18} 130L${x + 38} 110Z" fill="#111D35" stroke="${accent}" stroke-opacity="0.8"/>
+    <rect x="${x}" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="${accent}" stroke-opacity="0.42"/>
+    <path d="M${x + 38} 110H${x + 112}L${x + 132} 130L${x + 112} 150H${x + 38}L${x + 18} 130L${x + 38} 110Z" fill="#111D35" stroke="${accent}" stroke-opacity="0.56"/>
     <text x="${x + 75}" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">${escapeXml(item.value)}</text>
     <text x="${x + 150}" y="126" fill="${accent}" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">${escapeXml(item.label.toUpperCase())}</text>
     <text x="${x + 150}" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">${escapeXml(item.note)}</text>
@@ -168,14 +163,14 @@ function renderTrophySvg(stats) {
 
   return `<svg width="1600" height="320" viewBox="0 0 1600 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="trophyBg" x1="0" y1="0" x2="1600" y2="320" gradientUnits="userSpaceOnUse">
+    <linearGradient id="repoOverviewBg" x1="0" y1="0" x2="1600" y2="320" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#06111F"/>
       <stop offset="1" stop-color="#120A1F"/>
     </linearGradient>
   </defs>
-  <rect width="1600" height="320" rx="28" fill="url(#trophyBg)"/>
-  <text x="38" y="46" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">GITHUB TROPHY WALL</text>
-  <text x="38" y="68" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">A custom milestone wall generated from live GitHub profile signals.</text>
+  <rect width="1600" height="320" rx="28" fill="url(#repoOverviewBg)"/>
+  <text x="38" y="46" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PUBLIC REPO OVERVIEW</text>
+  <text x="38" y="68" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">Counts below come from public repository metadata, not vanity profile metrics.</text>
   ${cards}
 </svg>`;
 }
@@ -185,10 +180,8 @@ async function main() {
   const repos = await getAllRepos();
 
   const publicRepos = Number(user.public_repos || 0);
-  const followers = Number(user.followers || 0);
-  const following = Number(user.following || 0);
-  const stars = repos.reduce((sum, repo) => sum + Number(repo.stargazers_count || 0), 0);
-  const forks = repos.reduce((sum, repo) => sum + Number(repo.forks_count || 0), 0);
+  const originalRepos = repos.filter((repo) => !repo.fork).length;
+  const forkedRepos = repos.filter((repo) => repo.fork).length;
 
   const languageTotals = new Map();
   for (const repo of repos) {
@@ -213,10 +206,8 @@ async function main() {
   const stats = {
     login: user.login,
     publicRepos,
-    followers,
-    following,
-    stars,
-    forks,
+    originalRepos,
+    forkedRepos,
     topLanguages,
     updatedAt: new Date().toISOString().slice(0, 10),
   };
@@ -224,7 +215,7 @@ async function main() {
   await mkdir("assets/generated", { recursive: true });
   await writeFile("assets/generated/github-stats.svg", renderStatsSvg(stats), "utf8");
   await writeFile("assets/generated/top-languages.svg", renderLanguagesSvg(stats), "utf8");
-  await writeFile("assets/generated/trophy-wall.svg", renderTrophySvg(stats), "utf8");
+  await writeFile("assets/generated/repo-overview.svg", renderRepoOverviewSvg(stats), "utf8");
 }
 
 await main();

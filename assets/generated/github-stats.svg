@@ -10,42 +10,36 @@
     </linearGradient>
   </defs>
   <rect width="900" height="320" rx="28" fill="url(#statsBg)"/>
-  <rect x="18" y="18" width="864" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#statsAccent)" stroke-opacity="0.72"/>
-  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">GITHUB SIGNALS</text>
-  <text x="42" y="88" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="15">Live API sync for anujbarlawar121 // Updated 2026-06-29</text>
+  <rect x="18" y="18" width="864" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#statsAccent)" stroke-opacity="0.52"/>
+  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PUBLIC REPOSITORY SNAPSHOT</text>
+  <text x="42" y="88" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="15">Public GitHub data for anujbarlawar121 // Updated 2026-06-30</text>
 
   <g>
-    <rect x="42" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#00D9FF" stroke-opacity="0.5"/>
+    <rect x="42" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#00D9FF" stroke-opacity="0.38"/>
     <text x="60" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">PUBLIC REPOS</text>
     <text x="60" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">10</text>
   </g>
   <g>
-    <rect x="244" y="116" width="186" height="72" rx="18" fill="#101227" stroke="#8B5CF6" stroke-opacity="0.5"/>
-    <text x="262" y="143" fill="#A78BFA" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">FOLLOWERS</text>
-    <text x="262" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">5</text>
+    <rect x="244" y="116" width="186" height="72" rx="18" fill="#101227" stroke="#8B5CF6" stroke-opacity="0.38"/>
+    <text x="262" y="143" fill="#A78BFA" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">ORIGINAL REPOS</text>
+    <text x="262" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">9</text>
   </g>
   <g>
-    <rect x="446" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#14F195" stroke-opacity="0.5"/>
-    <text x="464" y="143" fill="#7DF6C8" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">FOLLOWING</text>
-    <text x="464" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">8</text>
+    <rect x="446" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#14F195" stroke-opacity="0.38"/>
+    <text x="464" y="143" fill="#7DF6C8" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">FORKED REPOS</text>
+    <text x="464" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">1</text>
   </g>
   <g>
-    <rect x="648" y="116" width="210" height="72" rx="18" fill="#101227" stroke="#00D9FF" stroke-opacity="0.5"/>
-    <text x="666" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">STARS EARNED</text>
-    <text x="666" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">3</text>
+    <rect x="648" y="116" width="210" height="72" rx="18" fill="#101227" stroke="#00D9FF" stroke-opacity="0.38"/>
+    <text x="666" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">LANGUAGES</text>
+    <text x="666" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">5</text>
   </g>
 
   <g>
-    <rect x="42" y="206" width="392" height="74" rx="20" fill="#0A172B" stroke="#224A70"/>
-    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">PORTFOLIO MOMENTUM</text>
-    <text x="62" y="260" fill="#D7E7FF" font-family="Consolas, 'Courier New', monospace" font-size="15">Public repos: 10  |  Stars: 3  |  Forks: 1</text>
-  </g>
-  <g>
-    <rect x="452" y="206" width="406" height="74" rx="20" fill="#101227" stroke="#3D2A63"/>
-    <text x="472" y="234" fill="#C4B5FD" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">RECRUITER READ</text>
-    <text fill="#E9DDFF" font-family="Consolas, 'Courier New', monospace" font-size="14">
-      <tspan x="472" y="256">Visible projects, strong stack,</tspan>
-      <tspan x="472" y="274">and internship-ready AI branding.</tspan>
+    <rect x="42" y="206" width="816" height="74" rx="20" fill="#0A172B" stroke="#224A70"/>
+    <text x="62" y="234" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">TOP LANGUAGES</text>
+    <text fill="#D7E7FF" font-family="Consolas, 'Courier New', monospace" font-size="15">
+      <tspan x="62" y="260">HTML  //  Python  //  Jupyter Notebook  //  JavaScript</tspan>
     </text>
   </g>
 </svg>

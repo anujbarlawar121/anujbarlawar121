@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chatTitle chatDesc">
-  <title id="chatTitle">AI Chatbots project card</title>
-  <desc id="chatDesc">Project card for AI chatbots and conversational interfaces.</desc>
+  <title id="chatTitle">Browser Object Detection Practice project card</title>
+  <desc id="chatDesc">Project card for a browser-based object detection practice app.</desc>
   <defs>
     <linearGradient id="chatBg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#081021"/>
@@ -12,27 +12,27 @@
     </linearGradient>
   </defs>
   <rect width="1200" height="260" rx="28" fill="url(#chatBg)"/>
-  <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#chatAccent)" stroke-opacity="0.72"/>
+  <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.82" stroke="url(#chatAccent)" stroke-opacity="0.42"/>
   <text x="60" y="74" fill="#C4B5FD" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 02</text>
-  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">AI Chatbots</text>
+  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Browser Object Detection Practice</text>
   <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
-    <tspan x="60" y="154">Practical chatbots focused on useful replies, clean UX,</tspan>
-    <tspan x="60" y="176">and modern LLM-powered automation flows.</tspan>
+    <tspan x="60" y="154">A Flask app for trying browser camera and image upload</tspan>
+    <tspan x="60" y="176">detection with labels and quick feedback.</tspan>
   </text>
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#EDE9FE">
-    <rect x="60" y="192" width="122" height="26" rx="13" fill="#121129" stroke="#A855F7" stroke-opacity="0.52"/>
-    <text x="89" y="210">PROMPTS</text>
-    <rect x="194" y="192" width="118" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
-    <text x="226" y="210">API UX</text>
-    <rect x="324" y="192" width="134" height="26" rx="13" fill="#121129" stroke="#A855F7" stroke-opacity="0.52"/>
-    <text x="351" y="210">AUTOMATION</text>
+    <rect x="60" y="192" width="96" height="26" rx="13" fill="#121129" stroke="#A855F7" stroke-opacity="0.52"/>
+    <text x="87" y="210">FLASK</text>
+    <rect x="168" y="192" width="128" height="26" rx="13" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.52"/>
+    <text x="193" y="210">COCO-SSD</text>
+    <rect x="308" y="192" width="122" height="26" rx="13" fill="#121129" stroke="#A855F7" stroke-opacity="0.52"/>
+    <text x="331" y="210">CV BASICS</text>
   </g>
-  <g opacity="0.84">
-    <rect x="850" y="62" width="250" height="60" rx="18" fill="#121129" stroke="#A855F7" stroke-opacity="0.72"/>
-    <rect x="894" y="146" width="210" height="52" rx="18" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.72"/>
+  <g opacity="0.6">
+    <rect x="850" y="62" width="250" height="60" rx="18" fill="#121129" stroke="#A855F7" stroke-opacity="0.58"/>
+    <rect x="894" y="146" width="210" height="52" rx="18" fill="#07192E" stroke="#00D9FF" stroke-opacity="0.58"/>
     <path d="M910 122L944 146" stroke="#A855F7" stroke-width="2"/>
     <path d="M1032 122L1004 146" stroke="#00D9FF" stroke-width="2"/>
-    <text x="975" y="100" fill="#F3E8FF" font-family="Consolas, 'Courier New', monospace" font-size="20" font-weight="700" text-anchor="middle">USER INPUT</text>
-    <text x="999" y="178" fill="#D8F8FF" font-family="Consolas, 'Courier New', monospace" font-size="20" font-weight="700" text-anchor="middle">SMART RESPONSE</text>
+    <text x="975" y="100" fill="#F3E8FF" font-family="Consolas, 'Courier New', monospace" font-size="20" font-weight="700" text-anchor="middle">CAMERA INPUT</text>
+    <text x="999" y="178" fill="#D8F8FF" font-family="Consolas, 'Courier New', monospace" font-size="20" font-weight="700" text-anchor="middle">DETECTION VIEW</text>
   </g>
 </svg>

@@ -6,9 +6,9 @@
     </linearGradient>
   </defs>
   <rect width="700" height="320" rx="28" fill="url(#langBg)"/>
-  <rect x="18" y="18" width="664" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#00D9FF" stroke-opacity="0.56"/>
-  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">MOST USED LANGUAGES</text>
-  <text x="42" y="82" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">Calculated from public repositories owned by anujbarlawar121</text>
+  <rect x="18" y="18" width="664" height="284" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#00D9FF" stroke-opacity="0.42"/>
+  <text x="42" y="56" fill="#8BE9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">LANGUAGES IN PUBLIC REPOS</text>
+  <text x="42" y="82" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">Based on GitHub language data for anujbarlawar121</text>
   
   <text x="44" y="120" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">HTML</text>
   <rect x="250" y="106" width="300" height="16" rx="8" fill="#112038"/>

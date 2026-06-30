@@ -1,184 +1,141 @@
 <!--
-If your GitHub username is not "anujbarlawar121", replace it globally in this file before publishing.
-If your Instagram or LeetCode handles change, update their links and badges below.
+If your GitHub username is not "anujbarlawar121", replace it globally before publishing.
+Keep this README factual: only list skills, projects, and certifications you can discuss in an interview.
 -->
 
 <p align="center">
-  <img src="./assets/hero-banner.svg" alt="Anuj Barlawar futuristic hero banner" width="100%" />
+  <img src="./assets/hero-banner.svg" alt="Anuj Barlawar GitHub profile banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=2400&pause=900&color=00D9FF&center=true&vCenter=true&width=980&lines=Artificial+Intelligence+and+Data+Science+Student;Building+RAG+Systems+and+LLM+Applications;Turning+ML+Ideas+Into+Portfolio-Ready+Products;Open+to+AI%2FML+Internships+and+Collaborations" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=2800&pause=1000&color=00D9FF&center=true&vCenter=true&width=980&lines=Third-Year+B.Tech+AI+%26+Data+Science+Student;Building+with+Python%2C+Flask%2C+SQL%2C+Power+BI%2C+and+RAG+basics;Practicing+Java+DSA+and+machine+learning+fundamentals;Looking+for+internships+where+I+can+learn+by+building" alt="Typing introduction" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=anujbarlawar121&style=for-the-badge&color=00D9FF&label=PROFILE+VIEWS" alt="Profile views" />
-  <a href="https://github.com/anujbarlawar121">
-    <img src="https://img.shields.io/github/followers/anujbarlawar121?style=for-the-badge&color=7C3AED&labelColor=111827&logo=github&logoColor=white&label=FOLLOWERS" alt="GitHub followers" />
-  </a>
   <a href="https://in.linkedin.com/in/anuj-barlawar-4572a5290">
-    <img src="https://img.shields.io/badge/LINKEDIN-LET%27S%20CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://www.instagram.com/anuj_barlawar/">
-    <img src="https://img.shields.io/badge/INSTAGRAM-ANUJ__BARLAWAR-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/anuj_algo_02/">
-    <img src="https://img.shields.io/badge/LEETCODE-ANUJ__ALGO__02-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-anuj__algo__02-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
-  <img src="https://img.shields.io/badge/OPEN_TO-AI%20ML%20INTERNSHIPS-14F195?style=for-the-badge&labelColor=111827" alt="Open to internships" />
+  <img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Learning-14F195?style=for-the-badge&labelColor=111827" alt="Open to internships and learning" />
 </p>
 
-<h1 align="center">AI & Data Science Student Building Practical ML, RAG, and LLM Applications.</h1>
+<h1 align="center">Third-Year AI & Data Science Student Building Small, Explainable Projects.</h1>
 
 <p align="center">
-  I am an AI and Data Science student building practical systems at the intersection of machine learning, retrieval, and product thinking.
-  My goal is simple: when recruiters, founders, or engineers visit this profile, they should instantly see focus, intent, and the ability to ship.
+  This profile is a practical record of what I have built, what I am learning, and what I can explain clearly in an internship interview.
 </p>
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## About Me
+## About
 
-```yaml
+```text
 name: Anuj Barlawar
-role: B.Tech Artificial Intelligence and Data Science Student
-focus:
-  - Artificial Intelligence
-  - Data Science
-  - Machine Learning
-  - Generative AI
-  - LLM Applications
-  - RAG Systems
-primary_languages:
-  - Python
-  - SQL
-  - Java
-currently_building:
-  - RAG-Based AI Teaching Assistant
-  - AI Chatbots
-  - Data Science Projects
-  - Machine Learning Projects
-open_to:
-  - AI / ML internships
-  - GenAI collaboration
-  - Learning-focused engineering environments
+education: 3rd-year B.Tech, Artificial Intelligence & Data Science
+current_focus: Python projects, Flask apps, SQL basics, Power BI dashboards, RAG fundamentals
+currently_building: RAG-Based-Project, Flask project improvements, Power BI dashboard practice, Java DSA practice
+looking_for: internships where I can contribute, learn from reviews, and build stronger engineering habits
 ```
 
-- I care about building AI systems that do more than look impressive on paper. I want them to be useful, understandable, and portfolio-ready.
-- I enjoy working across the full story of a project: data, logic, retrieval, experimentation, and presentation.
-- I am intentionally shaping this profile like a personal AI engineer website so it communicates clarity, ambition, and execution.
+I am still early in my engineering journey, so I try to keep this profile grounded.
+Most of my public work is made of student projects, experiments, dashboards, and practice repositories that show how I am learning by building.
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## Current Learning
+## Current Focus
 
-- Retrieval quality for RAG systems: chunking strategy, embeddings, context selection, and grounded response design.
-- LLM application architecture: chatbot flows, memory, prompt orchestration, evaluation, and practical deployment patterns.
-- Interview strength for AI / software roles: DSA in Java, cleaner Python engineering, and clearer project storytelling.
+- Building small Python and Flask projects that I can run, explain, and improve.
+- Practicing data analysis with notebooks and Power BI dashboards.
+- Learning RAG basics through lecture transcription, chunking, retrieval, and answer generation.
+- Practicing Java DSA for internship interviews.
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## Tech Stack
+## Tools & Technologies
 
 <p align="left">
-  Structured the way I actually build: languages, ML and AI libraries, GenAI systems, backend work, tools, and core applied concepts.
+  <sub>Grouped by how confidently I can discuss them today. Each item is connected to a public project, practice profile, or completed certification.</sub>
 </p>
 
-**Languages**
+**Comfortable With**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-0B1020?style=for-the-badge&logo=postgresql&logoColor=white&color=336791" alt="SQL" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-</p>
-
-**ML / AI**
-
-<p align="left">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit Learn" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Matplotlib-0B1020?style=for-the-badge&color=11557C" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/YOLO-0B1020?style=for-the-badge&color=7C3AED" alt="YOLO" />
-  <img src="https://img.shields.io/badge/CNN-0B1020?style=for-the-badge&color=00D9FF" alt="CNN" />
-  <img src="https://img.shields.io/badge/LangChain-0B1020?style=for-the-badge&color=14F195" alt="LangChain" />
-</p>
-
-**GenAI**
-
-<p align="left">
-  <img src="https://img.shields.io/badge/RAG%20Pipelines-0B1020?style=for-the-badge&color=00D9FF" alt="RAG Pipelines" />
-  <img src="https://img.shields.io/badge/LLMs-0B1020?style=for-the-badge&color=7C3AED" alt="LLMs" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-0B1020?style=for-the-badge&color=00D9FF" alt="Prompt Engineering" />
-</p>
-
-**Web Dev**
-
-<p align="left">
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-</p>
-
-**Tools**
-
-<p align="left">
+  <img src="https://img.shields.io/badge/SQL%20Basics-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL Basics" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
-  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
 </p>
 
-**Concepts**
+<p align="left">
+  <sub>Evidence: <a href="https://github.com/anujbarlawar121/PDF-Merger-Python">PDF-Merger-Python</a>, <a href="https://github.com/anujbarlawar121/smart-object-detector">smart-object-detector</a>, <a href="https://github.com/anujbarlawar121/infotainment-">infotainment-</a>, <a href="https://github.com/anujbarlawar121/python-data-analysis-eda">python-data-analysis-eda</a>, <a href="https://github.com/anujbarlawar121/cars-sales-powerbi-dashboard">cars-sales-powerbi-dashboard</a>, <a href="https://github.com/anujbarlawar121/PowerBI-Weather-Dashboard">PowerBI-Weather-Dashboard</a>, and SQL coursework/certification.</sub>
+</p>
+
+**Currently Learning**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Supervised%20ML-0B1020?style=for-the-badge&color=00D9FF" alt="Supervised ML" />
-  <img src="https://img.shields.io/badge/Unsupervised%20ML-0B1020?style=for-the-badge&color=7C3AED" alt="Unsupervised ML" />
-  <img src="https://img.shields.io/badge/NLP-0B1020?style=for-the-badge&color=14F195" alt="NLP" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-0B1020?style=for-the-badge&color=00D9FF" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/Feature%20Engineering-0B1020?style=for-the-badge&color=7C3AED" alt="Feature Engineering" />
-  <img src="https://img.shields.io/badge/Data%20Visualization-0B1020?style=for-the-badge&color=14F195" alt="Data Visualization" />
+  <img src="https://img.shields.io/badge/Java%20DSA-0B1020?style=for-the-badge&color=00D9FF" alt="Java DSA" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/RAG%20Basics-0B1020?style=for-the-badge&color=00D9FF" alt="RAG Basics" />
+</p>
+
+<p align="left">
+  <sub>Evidence: <a href="https://github.com/anujbarlawar121/RAG-Based-Project">RAG-Based-Project</a>, <a href="https://github.com/anujbarlawar121/python-data-analysis-eda">python-data-analysis-eda</a>, <a href="https://github.com/anujbarlawar121/infotainment-">infotainment-</a>, and <a href="https://leetcode.com/u/anuj_algo_02/">LeetCode practice</a>.</sub>
+</p>
+
+**Exploring**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Ollama%20%2F%20Local%20LLMs-0B1020?style=for-the-badge&color=14F195" alt="Ollama and local LLM tools" />
+  <img src="https://img.shields.io/badge/Prompt%20Design%20Basics-0B1020?style=for-the-badge&color=00D9FF" alt="Prompt design basics" />
+  <img src="https://img.shields.io/badge/Object%20Detection%20Demos-0B1020?style=for-the-badge&color=7C3AED" alt="Object detection demos" />
+  <img src="https://img.shields.io/badge/Recommendation%20Ideas-0B1020?style=for-the-badge&color=14F195" alt="Recommendation ideas" />
+</p>
+
+<p align="left">
+  <sub>Evidence: <a href="https://github.com/anujbarlawar121/RAG-Based-Project">RAG-Based-Project</a>, <a href="https://github.com/anujbarlawar121/smart-object-detector">smart-object-detector</a>, and <a href="https://github.com/anujbarlawar121/infotainment-">infotainment-</a>.</sub>
 </p>
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## GitHub Intelligence
+## Public GitHub Data
 
 <p align="center">
-  <sub>Custom GitHub API cards below refresh automatically from this repository's workflows.</sub>
+  <sub>Generated from public GitHub repository data. I intentionally leave out follower, streak, and popularity cards here.</sub>
 </p>
 
 <p align="center">
-  <img width="49%" src="./assets/generated/github-stats.svg" alt="GitHub stats" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=anujbarlawar121&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=7C3AED&currStreakLabel=8BE9FF" alt="GitHub streak" />
+  <img width="49%" src="./assets/generated/github-stats.svg" alt="Public repository snapshot" />
+  <img width="42%" src="./assets/generated/top-languages.svg" alt="Languages detected in public repositories" />
 </p>
 
 <p align="center">
-  <img width="42%" src="./assets/generated/top-languages.svg" alt="Most used languages" />
+  <img width="100%" src="./assets/generated/repo-overview.svg" alt="Public repository overview" />
 </p>
 
 <p align="center">
-  <img width="100%" src="./assets/generated/trophy-wall.svg" alt="GitHub trophy wall" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=anujbarlawar121&bg_color=0D1117&color=8BE9FF&line=00D9FF&point=7C3AED&area=true&hide_border=true&radius=16&custom_title=Contribution%20Activity%20Graph" alt="Contribution graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=anujbarlawar121&bg_color=0D1117&color=8BE9FF&line=00D9FF&point=7C3AED&area=true&hide_border=true&radius=16&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" />
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anujbarlawar121/anujbarlawar121/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anujbarlawar121/anujbarlawar121/output/github-contribution-grid-snake.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/anujbarlawar121/anujbarlawar121/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+    <img width="100%" src="https://raw.githubusercontent.com/anujbarlawar121/anujbarlawar121/output/github-contribution-grid-snake-dark.svg" alt="Contribution grid snake animation" />
   </picture>
 </p>
 
@@ -186,95 +143,94 @@ open_to:
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## Featured Projects
+## Featured Learning Projects
 
 <p align="center">
-  <img src="./assets/project-rag.svg" alt="RAG-Based AI Teaching Assistant project card" width="100%" />
+  <sub>Projects I am most comfortable discussing right now: what I built, what I practiced, and what I would improve next.</sub>
 </p>
 
 <p align="center">
-  <img src="./assets/project-chatbots.svg" alt="AI Chatbots project card" width="100%" />
+  <img src="./assets/project-rag.svg" alt="RAG lecture QA experiment card" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/project-ds.svg" alt="Data Science Projects card" width="100%" />
+  <img src="./assets/project-chatbots.svg" alt="Browser object detection practice card" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/project-ml.svg" alt="Machine Learning Projects card" width="100%" />
+  <img src="./assets/project-ds.svg" alt="Data analysis and visualization practice card" width="100%" />
 </p>
 
 <p align="center">
-  Best profile impact: pin the strongest finished repositories on your GitHub profile so they reinforce these cards with real code and real results.
+  <img src="./assets/project-ml.svg" alt="Flask recommendation practice card" width="100%" />
 </p>
 
-<p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="100%" />
-</p>
-
-## Achievements
-
-- Portfolio focus centered on modern AI domains: RAG, chatbots, machine learning, and data science.
-- Profile strategy designed to signal seriousness, taste, and execution to recruiters and internship reviewers.
-- Public-facing project direction aligned with practical AI engineering rather than generic student exercises.
-
-<p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="100%" />
-</p>
-
-## Certifications
-
-- IBM: Databases and SQL for Data Science with Python
-- AI For All: AI Appreciate Badge
-- Forage: Deloitte Technology Job Simulation
-- Forage: Hewlett Packard Enterprise Software Engineering Job Simulation
-- Next upgrades to add here: advanced ML, deep learning, cloud, and GenAI credentials
+| Project | What it shows | Evidence |
+| --- | --- | --- |
+| [RAG-Based-Project](https://github.com/anujbarlawar121/RAG-Based-Project) | Beginner RAG workflow for turning lecture videos into a simple question-answering assistant. | Python, transcription/chunking/retrieval practice, README/code history. |
+| [smart-object-detector](https://github.com/anujbarlawar121/smart-object-detector) | Flask app for trying browser camera and image-upload object detection. | Flask app structure, browser UI, detection demo flow. |
+| [PDF-Merger-Python](https://github.com/anujbarlawar121/PDF-Merger-Python) | Python utility project for PDF merge/extract/convert features. | Python scripting, utility-focused app behavior. |
+| [infotainment-](https://github.com/anujbarlawar121/infotainment-) | Flask project with SQL schema, content feeds, and recommendation-oriented practice. | Flask, SQL basics, recommendation ideas. |
+| [python-data-analysis-eda](https://github.com/anujbarlawar121/python-data-analysis-eda) | Beginner data analysis practice using Python notebooks/files. | Pandas/NumPy/Jupyter-style analysis practice. |
+| [cars-sales-powerbi-dashboard](https://github.com/anujbarlawar121/cars-sales-powerbi-dashboard) and [PowerBI-Weather-Dashboard](https://github.com/anujbarlawar121/PowerBI-Weather-Dashboard) | Dashboard practice projects for visualizing business/weather datasets. | Power BI dashboards and project files. |
+| [Neural_Ninjas](https://github.com/anujbarlawar121/Neural_Ninjas) | Team/project material connected to TechKruti 2k26 work. | Public repository history and project artifacts. |
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## LeetCode and Problem Solving
+## Repository Standards I Am Working Toward
 
-<p align="center">
-  <a href="https://leetcode.com/u/anuj_algo_02/">
-    <img src="https://leetcard.jacoblin.cool/anuj_algo_02?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode stats" width="100%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/u/anuj_algo_02/">
-    <img src="https://img.shields.io/badge/LeetCode-anuj__algo__02-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile badge" />
-  </a>
-</p>
-
-<p align="center">
-  Live DSA signal for interview prep, consistency, and problem-solving momentum.
-</p>
+- Clear problem statement and project purpose.
+- Installation or setup steps that another student can follow.
+- Screenshots or short demos where the project has a UI.
+- Tech stack listed with context, not just badges.
+- Notes on challenges, lessons learned, and future improvements.
+- Clean README structure before adding extra visuals.
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## Recruiter Snapshot
+## Evidence & Accomplishments
 
-- I am actively preparing for AI, ML, data science, and GenAI internship opportunities.
-- My strongest project direction is in practical LLM applications, RAG systems, and machine learning workflows.
-- I bring a mix of technical curiosity, visual presentation, and a clear willingness to build in public and improve fast.
+- Built public student projects across Python, Flask, SQL basics, Power BI, data analysis, and beginner RAG experiments.
+- Completed Python Bootcamp coursework through CodeWithHarry.
+- Completed IBM Data Science coursework/certification.
+- Completed IBM SQL coursework/certification.
+- Participated in TechKruti 2k26 project work through the `Neural_Ninjas` repository.
+- Practicing Java DSA through [LeetCode](https://leetcode.com/u/anuj_algo_02/); I am linking the profile without showing stats until the problem count is stronger.
 
 <p align="center">
-  If you are hiring for an AI or ML internship, LinkedIn is the fastest way to reach me, while Instagram and LeetCode show more of my builder journey and problem-solving consistency.
+  <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
+
+## Engineering Notes
+
+- I prefer building small working projects before adding extra features or visuals.
+- I try to document what the project does, what I learned, and what I would improve next.
+- I am interested in AI engineering, data analysis, backend development, and retrieval-augmented generation, but I am still building fundamentals.
+- I am currently exploring open-source contribution opportunities in beginner-friendly Python and AI repositories.
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="divider" width="100%" />
+</p>
+
+## What I Am Looking For
+
+I am looking for internship opportunities in AI, data analysis, Python, or backend development where I can contribute as a student, learn from code reviews, and keep improving my fundamentals through real project work.
+
+The strongest interview topics from this profile are the repositories linked above: what I built, what decisions I made, where I got stuck, and what I would improve next.
 
 <p align="center">
   <a href="https://in.linkedin.com/in/anuj-barlawar-4572a5290">
-    <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://www.instagram.com/anuj_barlawar/">
-    <img src="https://img.shields.io/badge/Instagram-anuj__barlawar-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  <a href="https://github.com/anujbarlawar121">
+    <img src="https://img.shields.io/badge/GitHub-anujbarlawar121-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://leetcode.com/u/anuj_algo_02/">
-    <img src="https://img.shields.io/badge/LeetCode-anuj__algo__02-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-Profile%20Link-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile link" />
   </a>
 </p>
 

@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mlTitle mlDesc">
-  <title id="mlTitle">Machine learning projects card</title>
-  <desc id="mlDesc">Project card for machine learning models and experiments.</desc>
+  <title id="mlTitle">Flask Recommendation Practice project card</title>
+  <desc id="mlDesc">Project card for a Flask recommendation practice app.</desc>
   <defs>
     <linearGradient id="mlBg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#071121"/>
@@ -12,22 +12,22 @@
     </linearGradient>
   </defs>
   <rect width="1200" height="260" rx="28" fill="url(#mlBg)"/>
-  <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#mlAccent)" stroke-opacity="0.72"/>
+  <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.82" stroke="url(#mlAccent)" stroke-opacity="0.42"/>
   <text x="60" y="74" fill="#F9A8D4" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 04</text>
-  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Machine Learning Projects</text>
+  <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Flask Recommendation Practice</text>
   <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
-    <tspan x="60" y="154">Applied ML experiments across features, evaluation,</tspan>
-    <tspan x="60" y="176">and practical real-world prediction tasks.</tspan>
+    <tspan x="60" y="154">A Flask project that combines SQL, recommendation</tspan>
+    <tspan x="60" y="176">ideas, and content feeds for learning app structure.</tspan>
   </text>
   <g font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#FCE7F3">
-    <rect x="60" y="192" width="126" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
-    <text x="87" y="210">SCIKIT LEARN</text>
-    <rect x="198" y="192" width="126" height="26" rx="13" fill="#121129" stroke="#7C3AED" stroke-opacity="0.52"/>
-    <text x="231" y="210">MODELS</text>
-    <rect x="336" y="192" width="162" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
-    <text x="364" y="210">EVALUATION</text>
+    <rect x="60" y="192" width="96" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
+    <text x="87" y="210">FLASK</text>
+    <rect x="168" y="192" width="82" height="26" rx="13" fill="#121129" stroke="#7C3AED" stroke-opacity="0.52"/>
+    <text x="194" y="210">SQL</text>
+    <rect x="262" y="192" width="116" height="26" rx="13" fill="#1A1024" stroke="#F472B6" stroke-opacity="0.52"/>
+    <text x="289" y="210">RECSYS</text>
   </g>
-  <g opacity="0.86">
+  <g opacity="0.6">
     <path d="M876 188C930 104 986 92 1040 148C1098 210 1136 172 1152 146" stroke="#F472B6" stroke-width="4" stroke-linecap="round"/>
     <path d="M876 196H1152" stroke="#2F3459" stroke-width="2"/>
     <circle cx="934" cy="118" r="7" fill="#F472B6"/>
