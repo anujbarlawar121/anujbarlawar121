@@ -17,12 +17,12 @@
   <g>
     <rect x="42" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#00D9FF" stroke-opacity="0.38"/>
     <text x="60" y="143" fill="#85A6D5" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">PUBLIC REPOS</text>
-    <text x="60" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">10</text>
+    <text x="60" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">11</text>
   </g>
   <g>
     <rect x="244" y="116" width="186" height="72" rx="18" fill="#101227" stroke="#8B5CF6" stroke-opacity="0.38"/>
     <text x="262" y="143" fill="#A78BFA" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">ORIGINAL REPOS</text>
-    <text x="262" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">9</text>
+    <text x="262" y="172" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800">10</text>
   </g>
   <g>
     <rect x="446" y="116" width="186" height="72" rx="18" fill="#09182C" stroke="#14F195" stroke-opacity="0.38"/>

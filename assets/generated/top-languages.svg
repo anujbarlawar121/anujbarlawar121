@@ -17,15 +17,15 @@
   <text x="44" y="154" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">Python</text>
   <rect x="250" y="140" width="300" height="16" rx="8" fill="#112038"/>
   <rect x="250" y="140" width="74" height="16" rx="8" fill="#8B5CF6"/>
-  <text x="566" y="154" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">24.7%</text>
+  <text x="566" y="154" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">24.8%</text>
   <text x="44" y="188" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">Jupyter Notebook</text>
   <rect x="250" y="174" width="300" height="16" rx="8" fill="#112038"/>
   <rect x="250" y="174" width="62" height="16" rx="8" fill="#14F195"/>
-  <text x="566" y="188" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">20.5%</text>
+  <text x="566" y="188" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">20.6%</text>
   <text x="44" y="222" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">JavaScript</text>
   <rect x="250" y="208" width="300" height="16" rx="8" fill="#112038"/>
   <rect x="250" y="208" width="24" height="16" rx="8" fill="#38BDF8"/>
-  <text x="566" y="222" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">7.4%</text>
+  <text x="566" y="222" fill="#9BB7E7" font-family="Consolas, 'Courier New', monospace" font-size="14">7.3%</text>
   <text x="44" y="256" fill="#DCEBFF" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700">CSS</text>
   <rect x="250" y="242" width="300" height="16" rx="8" fill="#112038"/>
   <rect x="250" y="242" width="24" height="16" rx="8" fill="#F472B6"/>

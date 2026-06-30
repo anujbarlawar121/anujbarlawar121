@@ -12,14 +12,14 @@
   <g>
     <rect x="36" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#00D9FF" stroke-opacity="0.42"/>
     <path d="M74 110H148L168 130L148 150H74L54 130L74 110Z" fill="#111D35" stroke="#00D9FF" stroke-opacity="0.56"/>
-    <text x="111" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">10</text>
+    <text x="111" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">11</text>
     <text x="186" y="126" fill="#00D9FF" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">PUBLIC REPOS</text>
     <text x="186" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">visible repositories</text>
   </g>
   <g>
     <rect x="422" y="76" width="350" height="188" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="#8B5CF6" stroke-opacity="0.42"/>
     <path d="M460 110H534L554 130L534 150H460L440 130L460 110Z" fill="#111D35" stroke="#8B5CF6" stroke-opacity="0.56"/>
-    <text x="497" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">9</text>
+    <text x="497" y="139" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle">10</text>
     <text x="572" y="126" fill="#8B5CF6" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700">ORIGINAL REPOS</text>
     <text x="572" y="152" fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">not forks</text>
   </g>
