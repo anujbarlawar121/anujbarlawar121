@@ -28,6 +28,10 @@ Keep this README factual: only list skills, projects, and certifications you can
 </p>
 
 <p align="center">
+  I build practical Python, Data Science, and AI projects to strengthen software engineering fundamentals and prepare for internships.
+</p>
+
+<p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
@@ -175,27 +179,11 @@ Most of my public work is made of student projects, experiments, dashboards, and
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## Repository Standards I Am Working Toward
-
-- Clear problem statement.
-- Simple README.
-- Architecture diagram when appropriate.
-- Screenshots for UI projects.
-- Installation steps.
-- Well-organized code.
-- Lessons learned.
-- Future improvements.
-
-<p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="100%" />
-</p>
-
 ## Certifications & Accomplishments
 
 - Completed `Complete 2025 Python Bootcamp: Learn Python from Scratch` by CodeWithHarry.
 - Completed `The Ultimate Job Ready Data Science Course` by CodeWithHarry.
 - Completed `Databases and SQL for Data Science with Python` by IBM.
-- Building public Python, Flask, Power BI, and AI learning projects while preparing for internships.
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
@@ -218,17 +206,6 @@ Most of my public work is made of student projects, experiments, dashboards, and
 <p align="center">
   Live DSA signal for interview prep, consistency, and problem-solving momentum.
 </p>
-
-<p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="100%" />
-</p>
-
-## Engineering Notes
-
-- I enjoy learning by building practical projects.
-- I focus on writing clean and readable code.
-- I document my projects to better understand and explain them.
-- I continue improving my projects as I learn new concepts.
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
