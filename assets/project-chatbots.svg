@@ -10,10 +10,22 @@
       <stop offset="0" stop-color="#7C3AED"/>
       <stop offset="1" stop-color="#00D9FF"/>
     </linearGradient>
+    <filter id="chatShadow" x="-8%" y="-18%" width="116%" height="136%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#7C3AED" flood-opacity="0.15"/>
+    </filter>
+    <style>
+      .card-frame { transition: stroke-opacity 180ms ease, fill-opacity 180ms ease; }
+      svg:hover .card-frame { stroke-opacity: 0.72; fill-opacity: 0.9; }
+      .accent-line { opacity: 0.68; }
+      svg:hover .accent-line { opacity: 0.92; }
+    </style>
   </defs>
   <rect width="1200" height="260" rx="28" fill="url(#chatBg)"/>
-  <rect x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.82" stroke="url(#chatAccent)" stroke-opacity="0.42"/>
+  <rect class="card-frame" x="24" y="24" width="1152" height="212" rx="24" fill="#0A1326" fill-opacity="0.84" stroke="url(#chatAccent)" stroke-opacity="0.58" filter="url(#chatShadow)"/>
+  <path class="accent-line" d="M60 46H1140" stroke="url(#chatAccent)" stroke-width="1.5"/>
   <text x="60" y="74" fill="#C4B5FD" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PROJECT 02</text>
+  <rect x="934" y="54" width="170" height="30" rx="15" fill="#111126" stroke="#A855F7" stroke-opacity="0.46"/>
+  <text x="1019" y="74" fill="#F3E8FF" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700" text-anchor="middle">INTERVIEW READY</text>
   <text x="60" y="120" fill="#F5F7FF" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="800">Smart Object Detector</text>
   <text fill="#A4C0EA" font-family="Consolas, 'Courier New', monospace" font-size="17">
     <tspan x="60" y="154">A Flask app for trying browser camera and image upload</tspan>

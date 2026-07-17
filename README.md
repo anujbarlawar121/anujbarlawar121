@@ -153,10 +153,14 @@ Most of my public work is made of student projects, experiments, dashboards, and
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
 
-## Featured Learning Projects
+## Featured Projects
 
 <p align="center">
-  <sub>Projects I am most comfortable discussing right now: problem, solution, stack, what I learned, and what I would improve next. Projects without public repositories are not listed yet.</sub>
+  <img src="https://img.shields.io/badge/INTERVIEW--READY-PROJECTS-00D9FF?style=for-the-badge&labelColor=0B1020" alt="Interview-ready projects" />
+</p>
+
+<p align="center">
+  <sub>Projects I can confidently discuss in technical interviews, including the problem, architecture, implementation, technologies used, challenges, and future improvements.</sub>
 </p>
 
 <p align="center">
@@ -164,15 +168,11 @@ Most of my public work is made of student projects, experiments, dashboards, and
 </p>
 
 <p align="center">
-  <img src="./assets/project-ml.svg" alt="Infotainment Flask app project card" width="100%" />
-</p>
-
-<p align="center">
   <img src="./assets/project-chatbots.svg" alt="Smart object detector project card" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/project-ds.svg" alt="Power BI dashboard practice card" width="100%" />
+  <img src="./assets/project-ds.svg" alt="Power BI Weather Dashboard project card" width="100%" />
 </p>
 
 <p align="center">
