@@ -156,10 +156,6 @@ Most of my public work is made of student projects, experiments, dashboards, and
 ## Featured Projects
 
 <p align="center">
-  <img src="https://img.shields.io/badge/INTERVIEW--READY-PROJECTS-00D9FF?style=for-the-badge&labelColor=0B1020" alt="Interview-ready projects" />
-</p>
-
-<p align="center">
   <sub>Projects I can confidently discuss in technical interviews, including the problem, architecture, implementation, technologies used, challenges, and future improvements.</sub>
 </p>
 
