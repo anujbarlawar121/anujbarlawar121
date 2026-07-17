@@ -156,7 +156,7 @@ Most of my public work is made of student projects, experiments, dashboards, and
 ## Featured Projects
 
 <p align="center">
-  <sub>Projects I can confidently discuss in technical interviews, including the problem, architecture, implementation, technologies used, challenges, and future improvements.</sub>
+  <sub>Some of the projects I've built while learning Python, Data Science, and AI.</sub>
 </p>
 
 <p align="center">
