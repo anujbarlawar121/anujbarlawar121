@@ -137,9 +137,6 @@ Most of my public work is made of student projects, experiments, dashboards, and
   <img width="42%" src="./assets/generated/top-languages.svg" alt="Languages detected in public repositories" />
 </p>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=anujbarlawar121&bg_color=0D1117&color=8BE9FF&line=00D9FF&point=7C3AED&area=true&hide_border=true&radius=16&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" />
-</p>
 
 <p align="center">
   <picture>
